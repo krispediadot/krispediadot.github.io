@@ -37,9 +37,13 @@ plugins:
 
 # navbar pages
 navbar:
+  - slug : category
+    title : Category
+  - slug : tag
+    title : Tag
+  - slug : archive
+    title : Archive
   - slug : about
-    title: About
-  - slug : blog
-    title: Blog
+    title: About me
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
