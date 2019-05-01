@@ -9,17 +9,21 @@ permalink: /archive/
     {% for post in site.posts %}
       {% unless post.next %}
         <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        <h4 class="category-title">{{ post.date | date: '%b' }}</h4>
       {% else %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-          {% capture month %}{{ post.date | date: '%b' }}{% endcapture %}
-          {% capture nmonth %}{{ post.next.date | date: '%b' }}{% endcapture %}
-          {% if month != nmonth %}
-            <h3 class="category-title">{{ post.date | date: '%b' }}</h3> 
-          {% endif %}
+          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>  
+        {% endif %}
+      {% endunless %}
+
+      {% unless post.next %}
+        <h4 class="category-title">{{ post.date | date: '%b' }}</h4>
+      {% else %}
+        {% capture month %}{{ post.date | date: '%b' }}{% endcapture %}
+        {% capture nmonth %}{{ post.next.date | date: '%b' }}{% endcapture %}
+        {% if month != nmonth %}
+          <h3 class="category-title">{{ post.date | date: '%b' }}</h3> 
         {% endif %}
       {% endunless %}
       <article class="post-item">
