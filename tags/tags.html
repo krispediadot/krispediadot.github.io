@@ -23,14 +23,13 @@ permalink: /tags/
         {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
         <h3 class="category-title">{{ this_word }}</h3>
         
-        <article class="post-item">
-          {% for post in site.tags[this_word] %}
-            {% if post.title != null %}
-              <span class="post-meta date-label">{{ post.date | date: "%b %d, %y" }}</span>  
+        {% for post in site.tags[this_word] %}
+          {% if post.title != null %}
+            <article class="post-item">  
               <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-            {% endif %}
-          {% endfor %}
-        </article>
+            </article>
+          {% endif %}
+        {% endfor %}
       {% endunless %}
     {% endfor %}
   </div>
