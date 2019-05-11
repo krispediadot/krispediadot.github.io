@@ -14,7 +14,7 @@ disqus_shortname  : "krispedia"
 postshare_enabled : false
 
 # Build settings
-permalink   : /:year/:title/
+permalink   : /:title/
 markdown    : kramdown
 highlighter : rouge
 
