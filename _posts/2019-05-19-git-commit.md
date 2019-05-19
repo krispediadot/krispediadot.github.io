@@ -6,7 +6,7 @@ description: "git commit"
 tag : [Git]
 ---
 <div class="divider"></div>
-_/-- 실습 환경: Mac OS & zsh with oh-my-zsh --/
+_/-- 실습 환경: Mac OS & zsh with oh-my-zsh --/_
 <div class="divider"></div>
 
 ### git commit에 대해 알아봅시다. 
