@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Git] git commit"
-comments: false
+comments: true
 description: "git commit"
 tag : [Git]
 ---

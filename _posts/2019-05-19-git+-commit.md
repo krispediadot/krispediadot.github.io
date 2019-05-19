@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[Git+] git+ commit"
-comments: false
-description: "git+ init"
+comments: true
+description: "git+ commit"
 tag : [Git+]
 ---
 <div class="divider"></div>
