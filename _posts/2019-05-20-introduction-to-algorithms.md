@@ -6,7 +6,7 @@ description: "algorithms"
 tag : [Introduction To Algorithms]
 ---
 
-### INDEX
+### /INDEX/
 
 #### 1.알고리즘의 역할
 #### 2.시작하기
