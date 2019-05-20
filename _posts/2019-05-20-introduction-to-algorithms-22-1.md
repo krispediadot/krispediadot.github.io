@@ -44,3 +44,7 @@ tag : [Introduction To Algorithms]
 - 메모리 사용량이 많다.
 
   
+---
+**Reference**:
+
+Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein - `Introduction to algorithms` (2009, The MIT Press)
