@@ -30,7 +30,7 @@ tag : [Introduction To Algorithms]
 #### 20.반 엠데 보아스 트리
 #### 21.서로 소 집합의 자료구조
 #### 22.기본 그래프 알고리즘
-  22.1 그래프의 표현<br>
+  22.1 [그래프의 표현](https://krispedia.github.io/introduction-to-algorithms-22-1)<br>
   22.1 [연습문제](https://krispedia.github.io/introduction-to-algorithms-22-1-exercise)<br>
 #### 23.최소 신장 트리
 #### 24.단일 출발지 최단 경로
