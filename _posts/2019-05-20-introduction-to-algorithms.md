@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Introduction To Algorithms] Index"
+title: "[Introduction To Algorithms]"
 comments: true
 description: "algorithms"
 tag : [Introduction To Algorithms]
