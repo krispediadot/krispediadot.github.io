@@ -344,7 +344,8 @@ http.createServer(app).listen(app.get('port'), function(){
 ![node app7.js](https://krispedia.github.io/assets/images/node_app7_js.jpg)<br>
 
 **브라우저**<br>
-![node app7 b.js](https://krispedia.github.io/assets/images/node_app7_js_b.jpg)<br>
+![node app7 1.js](https://krispedia.github.io/assets/images/node_app7_js_1.jpg)<br>
+![node app7 2.js](https://krispedia.github.io/assets/images/node_app7_js_2.jpg)<br>
 
 ## 11.라우터 객체를 이용해 로그인 페이지 만들기<br>
 
@@ -413,7 +414,8 @@ http.createServer(app).listen(app.get('port'), function(){
 ![node app8.js](https://krispedia.github.io/assets/images/node_app8_js.jpg)<br>
 
 **브라우저**<br>
-![node app8 b.js](https://krispedia.github.io/assets/images/node_app8_js_b.jpg)<br>
+![node app8 1.js](https://krispedia.github.io/assets/images/node_app8_js_1.jpg)<br>
+![node app8 2.js](https://krispedia.github.io/assets/images/node_app8_js_2.jpg)<br>
 
 ## 12.코드를 조금 수정해 봅시다.<br>
 
@@ -625,8 +627,8 @@ http.createServer(app).listen(app.get('port'), function(){
 ![node app10.js](https://krispedia.github.io/assets/images/node_app10_js.jpg)<br>
 
 **브라우저**<br>
-![node app10 b 1.js](https://krispedia.github.io/assets/images/node_app10_js_b_1.jpg)<br>
-![node app10 b 2.js](https://krispedia.github.io/assets/images/node_app10_js_b_2.jpg)<br>
+![node app10 b 1.js](https://krispedia.github.io/assets/images/node_app10_js_b1.jpg)<br>
+![node app10 b 2.js](https://krispedia.github.io/assets/images/node_app10_js_b2.jpg)<br>
 
 ## 15.coockie를 이용해봅시다!<br>
 ```js
