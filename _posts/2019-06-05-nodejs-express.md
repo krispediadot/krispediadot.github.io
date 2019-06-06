@@ -714,7 +714,7 @@ http.createServer(app).listen(app.get('port'), function(){
 ![node app11 b 1.js](https://krispedia.github.io/assets/images/node_app11_js_b1.jpg)<br>
 ![node app11 b 2.js](https://krispedia.github.io/assets/images/node_app11_js_b2.jpg)<br>
 
-## 16.이번엔 session을 사용해서 여러 페이지르 만들어 봅시다.<br>
+## 16.이번엔 session을 사용해서 여러 페이지를 만들어 봅시다.<br>
 ```js
 //app12.js
 
