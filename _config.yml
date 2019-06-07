@@ -3,11 +3,11 @@ title_left    : "Sujin's "
 title_right   : "Tech Blog" # default: ""
 description   : "Tech space"
 keywords      : "developer, blog, IT, tech"
-url           : https://krispedia.github.io # site url
+url           : "https://krispedia.github.io" # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
-google_analytics  : UA-XXXXX-XX
+google_analytics  : UA-141687000-1
 twitter_username  : ""
 comments_enabled  : true # if enabled (set to true), please provide your disqus_username
 disqus_shortname  : "krispedia"
