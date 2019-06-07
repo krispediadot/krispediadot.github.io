@@ -48,3 +48,5 @@ tag : [Blog]
 ![ga7](https://krispedia.github.io/assets/images/ga_7.jpg)<br>
 
 ![ga8](https://krispedia.github.io/assets/images/ga_8.jpg)<br>
+
+모바일에서 블로그에 들어가본 결과 Real-time 으로 접속 위치와 무엇을 보고있는지 확인할 수 있습니다.<br>
