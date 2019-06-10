@@ -83,5 +83,3 @@ Jekyll로 생서한 블로그는 수동으로 검색엔진에 노출될 수 있�
 
 ![google webmaster 18](https://krispedia.github.io/assets/images/google_webmaster_18.jpg)<br>
 
-![google webmaster 19](https://krispedia.github.io/assets/images/google_webmaster_19.jpg)<br>
-
