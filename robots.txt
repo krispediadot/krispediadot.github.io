@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://krispedia.github.io/sitemap.xml
