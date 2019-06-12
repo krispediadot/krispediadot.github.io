@@ -11,6 +11,7 @@ Jekyll로 생서한 블로그는 수동으로 검색엔진에 노출될 수 있�
 작성한 포스트들의 조회수를 높이기 위해! 구글에서 검색될 수 있게 노출시켜봅시다.<br>
 
 ## 1.구글 웹마스터에 들어가서 시작해봅시다. <br>
+[https://www.google.com/webmasters/#?modal_active=none](https://www.google.com/webmasters/#?modal_active=none)
 
 #### 1- 구글 아이디로 로그인을 하고 시작하기 버튼을 누릅니다.<br>
 ![google webmaster 1](https://krispedia.github.io/assets/images/google_webmaster_1.jpg)<br>
