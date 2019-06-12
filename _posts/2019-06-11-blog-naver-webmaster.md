@@ -62,3 +62,7 @@ robot.txt에 가서 간단 생성을 참고해 robot.txt 파일을 만듭니다.
 
 
 이상 등록이 완료 되었습니다.<br>
+
+
+**1일 후 수집 현황**
+![google webmaster 15](https://krispedia.github.io/assets/images/naver_webmaster_15.jpg)<br>
