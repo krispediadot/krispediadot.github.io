@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Git] git commit"
+title: "[Git] git commit란?"
 comments: true
 description: "git commit"
 tag : [Git]

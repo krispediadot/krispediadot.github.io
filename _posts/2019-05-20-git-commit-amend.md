@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Git] git commit --amend"
+title: "[Git] git commit --amend란?"
 comments: true
 description: "git commit --amend"
 tag : [Git]
