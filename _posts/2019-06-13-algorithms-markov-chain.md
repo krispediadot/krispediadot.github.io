@@ -6,7 +6,7 @@ description: "markov chain"
 tag : [Algorithms]
 ---
 
-마르코프 체인의 주요 특징은 **마르코프 성질**을 가진다는 것이다.<br
+마르코프 체인의 주요 특징은 **마르코프 성질**을 가진다는 것이다.<br>
 
 ## 마르코프 성질이란 무엇인가?<br>
 > 마르코프 성질이란 다음 상태로 넘어갈 때 오직 직전 상태의 값**만** 고려한다는 것이다.
@@ -28,11 +28,8 @@ tag : [Algorithms]
 3단계. 각 상태와 상태 전이 확률을 정리해 상태 전이도/상태 전이 확률표를 그린다.<br>
 4단계. 확률을 계산해본다.(각 상태가 전이 될 때 직전의 상태**만** 고려한다는 점을 명심!)<br>
 
-
-
 ---
 
-#### 
 >Certain Factors Affecting Telegraph Speed by H.NYQUIST
 
 #### 정보의 크기(?) H = S*N
@@ -44,5 +41,5 @@ tag : [Algorithms]
 #### 압축
 >A Method for the Construction of Minimum-Redundancy Codes by DAVID A.HUFFMAN 
 
-**참고 자료:**
+**참고 자료:**<br>
 [https://ko.khanacademy.org/computing/computer-science/informationtheory#moderninfotheory](https://ko.khanacademy.org/computing/computer-science/informationtheory#moderninfotheory)
