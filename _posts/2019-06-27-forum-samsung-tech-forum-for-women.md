@@ -44,7 +44,7 @@ sw 세션에서는 1시간 동안 미니 알고리즘 대회를 열어 급 스�
 여성 엔지니어 라는 제목이 아닌 엔지니어 여성이라는 제목. <br>
 여성이라는 점 보다 엔지니어로서의 이야기를 해주셨는데 정말 강연이 좋았다. (이분은 코딩을 하기 위해 휴가를 내셨다는 정말 참된 엔지니어이셨다.)<br>
 
-이번 포럼에서 든 생각이 얼마 전 AMD회사의 수장인 리사 수 박사의 말과 닿아있는것 같아 리사수 박사의 영상으로 이 포스트를 마무리 해야겠다. <br>
+이번 포럼에서 든 생각이 얼마 전 AMD회사의 수장인 리사 수 박사의 말과 닿아있는것 같아 리사수 박사의 영상으로 이 포스트를 마무리! <br>
 
-<div class="video-container"><iframe src="https://www.youtube.com/watch?v=m7BKW-HkXrQ&t=12s" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/m7BKW-HkXrQ" frameborder="0" allowfullscreen></iframe></div>
 
