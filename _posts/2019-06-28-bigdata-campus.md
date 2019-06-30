@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Interview] 2019 데이터 청년 캠퍼스 인터뷰"
+title: "[Interview] 2019 데이터 청년 캠퍼스 면접"
 comments: true
 description: "interview"
 tag : [Interview]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Interview] 공공빅데이터 일경험 청년인재"
+title: "[Interview] 공공빅데이터 일경험 청년인재 면접"
 comments: true
 description: "interview"
 tag : [Interview]
