@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Jupyter Notebook] Chrome을 기본 브라우저로"
+title: "[Jupyter Notebook] Chrome을 기본 브라우저로(윈도우)"
 comments: true
 description: ""
 tag : []
