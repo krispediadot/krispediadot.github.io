@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Blog] Google Analytics 추가하기"
-comments: true
-description: "blog"
-tag : [Blog]
+categories: blog
+tag : [blog]
 ---
 
 블로그의 방문자를 확인하고 방문 기록을 데이터로 남겨놓기 위해 구글에서 지원하는 google analytics를 추가해 봅시다.<br>

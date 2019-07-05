@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[Blog] Naver에 블로그 검색어 노출시키기"
-categories: Blog
-tag : [Blog]
+categories: blog
+tag : [blog]
 ---
 
 

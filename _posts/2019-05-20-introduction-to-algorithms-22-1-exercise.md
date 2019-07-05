@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Introduction To Algorithms] 22.1 연습문제"
-comments: true
-description: "algorithms"
-tag : [Introduction To Algorithms, Exercise]
+categories: ita
+tag : [algorithms]
 ---
 
 ### 22.1-1

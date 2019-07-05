@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "[Algorithms] Kruskal 알고리즘 "
-comments: true
-description: "kruskal"
+categories: algo
 tag : [Algorithms]
 ---
 

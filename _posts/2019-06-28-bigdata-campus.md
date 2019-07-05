@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Interview] 2019 데이터 청년 캠퍼스 면접"
-comments: true
-description: "interview"
-tag : [Interview]
+categories: interview
+tag : [interview]
 ---
 
 2019.06.28 포스트를 작성 하고 있는 오늘 데이터 청년 캠퍼스 O.T가 있었다. <br>

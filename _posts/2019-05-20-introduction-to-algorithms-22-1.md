@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Introduction To Algorithms] 22.1 그래프의 표현"
-comments: true
-description: "algorithms"
-tag : [Introduction To Algorithms]
+categories: ita
+tag : [algorithms]
 ---
 ---
 ### 그래프 표현 용어

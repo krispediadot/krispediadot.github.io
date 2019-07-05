@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Opensource] Ascii-generator"
-categories: Side_Projects
+categories: mini-projects
 tag : [Opensource]
 ---
 

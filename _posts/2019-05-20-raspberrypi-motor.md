@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "[Raspberry Pi] DC Motor"
-comments: true
-description: "raspberrypi"
+categories: farec
 tag : [Raspberry Pi]
 ---
 <div class="divider"></div>

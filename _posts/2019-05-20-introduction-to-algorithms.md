@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "[Introduction To Algorithms]"
-comments: true
-description: "algorithms"
-tag : [Introduction To Algorithms]
+title: "[Introduction To Algorithms] Index"
+categories: ita
+tag : [algorithms]
 ---
 
 ## ------------------ INDEX ------------------

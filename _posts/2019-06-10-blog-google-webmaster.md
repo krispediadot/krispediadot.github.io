@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Blog] Google에 블로그 검색어 노출시키기"
-comments: true
-description: "blog"
-tag : [Blog]
+categories: blog
+tag : [blog]
 ---
 
 Jekyll로 생서한 블로그는 수동으로 검색엔진에 노출될 수 있게 해 줘야 합니다. <br>

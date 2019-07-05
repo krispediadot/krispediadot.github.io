@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Blog] Error - Liquid Syntax Error"
-comments: true
-description: "blog"
-tag : [Blog]
+categories: blog
+tag : [blog]
 ---
 
 `jekyll 3.8.5 | Error:  Liquid syntax error (line 10): Variable '{ {1,0}' was not properly terminated with regexp: /\}\}`  

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Algorithms] Dynamic Programming"
-comments: true
-description: "DP"
-tag : [Algorithms]
+categories: algo
+tag : [algorithms]
 ---
 
 ### DP

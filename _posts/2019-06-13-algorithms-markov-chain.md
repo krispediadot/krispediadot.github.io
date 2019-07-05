@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "[Algorithms] Markov Chain "
-comments: true
-description: "markov chain"
+categories: algo
 tag : [Algorithms]
 ---
 

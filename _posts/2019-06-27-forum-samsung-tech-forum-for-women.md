@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Forum] Samsung Tech Forum for Women"
-comments: true
-description: "forum"
-tag : [Forum]
+categories: fs
+tag : []
 ---
 
 5월 말이었나 6월 초에 신청했던 Samsung Tech Forum for Women에 참석 대상자로 전성되어 다녀 왔다. <br>

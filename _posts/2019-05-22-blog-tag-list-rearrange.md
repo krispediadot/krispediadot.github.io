@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Blog] Tag list 겹치는 부분 수정하기"
-comments: true
-description: "blog"
-tag : [Blog]
+categories: blog
+tag : [blog]
 ---
 
 - **수정 전**<br>

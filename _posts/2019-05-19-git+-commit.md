@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Git+] git+ commit란?"
-comments: true
-description: "git+ commit"
-tag : [Git+]
+categories: git
+tag : [git+]
 ---
 <div class="divider"></div>
 _/-- 실습 환경: Mac OS & zsh with oh-my-zsh --/_
