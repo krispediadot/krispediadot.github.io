@@ -2,7 +2,7 @@
 layout: post
 title: "[Algorithms] Markov Chain "
 categories: algo
-tag : [Algorithms]
+tag : [algorithms]
 ---
 
 마르코프 체인의 주요 특징은 **마르코프 성질**을 가진다는 것이다.<br>

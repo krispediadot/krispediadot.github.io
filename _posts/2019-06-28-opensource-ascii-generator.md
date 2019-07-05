@@ -2,7 +2,7 @@
 layout: post
 title: "[Opensource] Ascii-generator"
 categories: mini-projects
-tag : [Opensource]
+tag : [opensource]
 ---
 
  흥미로운 git 프로젝트를 찾아보다가 이미지를 아스키 문자로 표현해주는 프로젝트가 있어서 실행시켜 보려 합니다. <br>

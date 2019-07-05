@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Jupyter Notebook] Chrome을 기본 브라우저로(윈도우)"
-comments: true
-description: ""
-tag : []
+categories: python
+tag : [python]
 ---
 
 #### 파일 형식별 기본 앱 선택

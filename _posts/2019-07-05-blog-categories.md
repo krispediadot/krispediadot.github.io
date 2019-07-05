@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "[Blog] jekyll 블로그에 카테고리 추가하기"
-categories: Blog
-tag : [Blog]
-permalink: '/blog/blog-categories'
+categories: blog
+tag : [blog]
 ---
+
 
 
 

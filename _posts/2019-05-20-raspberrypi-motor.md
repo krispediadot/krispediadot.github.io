@@ -2,7 +2,7 @@
 layout: post
 title: "[Raspberry Pi] DC Motor"
 categories: farec
-tag : [Raspberry Pi]
+tag : [raspberry pi]
 ---
 <div class="divider"></div>
 /-- 필요한 것 --/

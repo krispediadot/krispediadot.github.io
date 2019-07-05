@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Node.js] express로 웹 서버 만들기"
-comments: true
-description: "Node.js"
-tag : [Node.js]
+categories: mini-projects
+tag : [node.js]
 ---
 
 #### Node.js express로 웹 서버를 만들어 봅시다.<br>

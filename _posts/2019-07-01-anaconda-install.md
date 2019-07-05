@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "[Install] Anaconda 설치하기(윈도우)"
-comments: true
-description: "install"
-tag : [Install]
+categories: python
+tag : [install, python]
 ---
 
 아나콘다 윈도우에 설치해봅시다.<br>
