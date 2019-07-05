@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Node.js] express로 웹 서버 만들기"
-categories: mini-projects
+categories: 
 tag : [node.js]
 ---
 
