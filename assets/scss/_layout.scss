@@ -95,7 +95,7 @@ hr {
   margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 28px;
   font-weight: 300;
 
@@ -122,7 +122,7 @@ hr {
   }
 
   a {
-    @extend .link;
+    
   }
 }
 
@@ -339,4 +339,92 @@ hr {
   vertical-align: super;
   font-size: 10px;
   font-size: 0.625rem;
+}
+
+/*****************************************************************************/
+/*
+/* Navigation bar
+/*
+/*****************************************************************************/
+
+.site-category{
+  background: #ffffff;
+  border-top: 1px solid $light-gray-color;
+  margin:auto;
+  padding:0;
+  font-size:14px;
+  text-align: center;
+  clear:left;
+}
+.site-category ul{
+  //background: rgb(109,109,109);
+  height:50px;
+  list-style:none;
+  line-height: 1.5;
+  margin:0 auto;
+  padding:0;
+  display:inline-block;
+}
+.site-category li{
+  float: left;
+  display:inline;
+
+}
+.site-category li a{
+  background: #ffffff;
+  color: $blue-color;
+  display:block;
+  font-weight:normal;
+  line-height:50px;
+  margin:0px;
+  padding:0px 25px;
+  text-align:center;
+  text-decoration:none;
+}
+.site-category li a:hover{
+  background: rgb(71,71,71);
+  color:#FFFFFF;
+  text-decoration:none;
+}
+.site-category li ul{
+  background: rgb(109,109,109);
+  display:none; /* 평상시에는 드랍메뉴가 안보이게 하기 */
+  height:auto;
+  padding:0px;
+  margin:0px;
+  border:0px;
+  position:absolute;
+  width:200px;
+  z-index:200;
+  /*top:1em;
+  /*left:0;*/
+}
+.site-category li:hover ul{
+  display:block; /* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+}
+.site-category li li {
+  background: #ffffff;
+  display:block;
+  float:none;
+  margin:0px;
+  padding:0px;
+  width:200px;
+}
+.site-category li:hover li a{
+  background:none;
+}
+.site-category li ul a{
+  display:block;
+  height:50px;
+  font-size:12px;
+  font-style:normal;
+  margin:0px;
+  padding:0px 10px 0px 15px;
+  text-align:left;
+}
+.site-category li ul a:hover, .menubar li ul li:hover a{
+  background: rgb(71,71,71);
+  border:0px;
+  color:#ffffff;
+  text-decoration:none;
 }

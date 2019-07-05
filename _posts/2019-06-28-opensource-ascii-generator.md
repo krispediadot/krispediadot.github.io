@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "[Opensource] Ascii-generator"
-comments: true
-description: "opensource"
+categories: Side_Projects
 tag : [Opensource]
 ---
 

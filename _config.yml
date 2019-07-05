@@ -14,7 +14,7 @@ disqus_shortname  : "krispedia"
 postshare_enabled : false
 
 # Build settings
-permalink   : /:title/
+permalink   : /:categories/:title/
 markdown    : kramdown
 highlighter : rouge
 
@@ -37,8 +37,8 @@ plugins:
 
 # navbar pages
 navbar:
-  - slug : category
-    title : Category
+  - slug : categories
+    title : Categories
   - slug : tag
     title : Tag
   - slug : archive

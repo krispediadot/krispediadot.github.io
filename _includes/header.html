@@ -1,3 +1,59 @@
 <header class="site-header">
-  {% include nav.html %}
+    <nav class="nav">
+        <div class="container">
+          <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
+          <ul class="navbar">
+              <li><a href="{{ '/archive' | prepend: site.baseurl | prepend: site.url }}">Archive</a></li>
+              <li><a href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}">Tags</a></li>
+              <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="site-category">
+        <ul class='cat1'>
+          <li><a href="/">Projects</a>
+            <ul>
+              <li><a href="/Projects/UnderTheSea">UnderTheSea</a></li>
+              <li><a href="/Projects/FA-REC">FA-REC</a></li>
+              <li><a href="/Projects/ToyProjects">ToyProjects</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Algorithms</a>
+            <ul>
+                <li><a href="/Algorithms/ITA">Study</a></li>
+                <li><a href="/Algorithms/PS">Problem Solving</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Language</a>
+            <ul>
+              <li><a href="/Language/C++">C++</a></li>
+              <li><a href="/Language/Python">Python</a></li>
+              <li><a href="/Language/Swift">Swift</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/">Data Science</a>
+            <ul>
+                <li><a href="/DS/Data">Data</a></li>
+                <li><a href="/DS/Statistics">Statistics</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/">AI</a>
+            <ul>
+                <li><a href="/AI/DeepLearning">Deep Learning</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/">Dev</a>
+            <ul>
+                <li><a href="/Dev/Git">Git</a></li>
+                <li><a href="/Dev/Blog">Blog</a></li>
+                <li><a href="/Dev/FS">Forum/Seminar</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+  
 </header>
