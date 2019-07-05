@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Blog] Google Analytics 추가하기"
-comments: false
+comments: true
 description: "blog"
 tag : [Blog]
 ---
