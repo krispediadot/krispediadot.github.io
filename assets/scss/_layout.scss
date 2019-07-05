@@ -122,7 +122,7 @@ hr {
   }
 
   a {
-    
+    @extend .link;
   }
 }
 
@@ -372,7 +372,6 @@ hr {
 }
 .site-category li a{
   background: #ffffff;
-  color: $blue-color;
   display:block;
   font-weight:normal;
   line-height:50px;
@@ -382,7 +381,7 @@ hr {
   text-decoration:none;
 }
 .site-category li a:hover{
-  background: rgb(71,71,71);
+  background: $blue-color;
   color:#FFFFFF;
   text-decoration:none;
 }
@@ -423,7 +422,7 @@ hr {
   text-align:left;
 }
 .site-category li ul a:hover, .menubar li ul li:hover a{
-  background: rgb(71,71,71);
+  background: $blue-color;
   border:0px;
   color:#ffffff;
   text-decoration:none;
