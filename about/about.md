@@ -6,8 +6,11 @@ permalink: /about/
 
 Hello! I'm a student majoring in ITcae. 
 
+<br>
 
-<div class="divider"></div>
+---
+
+
 
 E-Mail : krispediadot@gmail.com
 
