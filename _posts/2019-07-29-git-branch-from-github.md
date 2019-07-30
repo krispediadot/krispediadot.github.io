@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[Git] Gihub의 branch 가져오기"
+title: "[Git] 원격 저장소 branch 가져오기"
 categories: git
 tag : [git, branch]
 ---
 
-## Github에 올려놓은 프로젝트에 있는 branch 가져오기
+## 원격 저장소인 Github에 올려놓은 프로젝트에 있는 branch 가져오기
 
 프로젝트를 github에 올려놓은 상태에서 로컬에 있는 폴더를 지웠다. <br>
 
