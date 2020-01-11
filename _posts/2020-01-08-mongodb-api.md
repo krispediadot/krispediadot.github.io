@@ -6,6 +6,11 @@ tag : [MongoDB]
 ---
 
 #### 1. Django 프로젝트 생성
+프로젝트를 진행 할 폴더 만들기 
+```
+mkdir mongo_api
+```
+Django 프로젝트 생성하기  
 ```
 django-admin startproject mongo_api
 ```
@@ -16,7 +21,7 @@ pymongo 가 필요하므로 없다면 아래 명령어로 설치
 pip install pymongo
 ```
 
-**모듈의 위치 = mongo_api/mongo.py**  
+**모듈의 위치 = mongo_api/mongo_api/mongo.py**  
 
 모듈 작성  
 ```python 
@@ -40,9 +45,9 @@ localhost서버의 local 데이터베이스의 startup_log 데이터로 테스�
 python mongo.py
 ```
 
-**제대로 출력 된다면 성공!**  
+**DB에 들어있는 데이터가 제대로 출력 된다면 성공!**  
 
-#### 3. mongp_api/views.py 파일 생성하기
+#### 3. mongo_api/mongp_api/views.py 파일 생성하기
 
 ```python
 from django.http import JsonResponse
