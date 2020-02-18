@@ -24,11 +24,11 @@ Divide & Conquer은 서로 겹치지 않는 부분 문제로 분할하고 해당
 4단계. 계산된 정보들로 최적해를 구성한다  
 
 
-#### Dynamic Programming 이 사용 되는 곳
+### Dynamic Programming 이 사용 되는 곳
 ---
 
 <div class="divider"></div>
 **[참고자료]**
 
-- school of ai 로 유명한 **Siraj Raval** 의 설명
+- school of ai로 유명한 **Siraj Raval** 의 설명:  
 [https://www.youtube.com/watch?v=DiAtV7SneRE](https://www.youtube.com/watch?v=DiAtV7SneRE)
