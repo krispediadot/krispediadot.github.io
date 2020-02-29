@@ -7,7 +7,7 @@ tag : []
 
 ### 1. Google Cloud 인스턴스 생성
 ---
-![](../assets/images/gcp_create_instance.gif)
+![](https://github.com/krispedia/krispedia.github.io/tree/master/assets/images/gcp_create_instance.gif)
 
 ### 2. Ubuntu Linux에 MongoDB 설치
 ---
@@ -94,20 +94,20 @@ sudo systemctl restart mongodb
 외부에서 GCP를 인스턴스를 포트에 접속하려면 방화벽 규칙을 설정해줘야함  
 
 #### 7-1 이름 설정
-![](../assets/images/firewall_name.jpg)
+![](https://github.com/krispedia/krispedia.github.io/tree/master/assets/images/firewall_name.jpg)
 #### 7-2 트래픽 방향 설정
 수신 / 송신 설정
-![](../assets/images/firewall_traffic.jpg)
+![](https://github.com/krispedia/krispedia.github.io/tree/master/assets/images/firewall_traffic.jpg)
 둘 다 필요할 경우 각각 만들어 줘야함  
 
 #### 7-3 대상 지정
 "네트워크의 모든 인스턴스" 로 변경
-![](../assets/images/firewall_target.jpg)
+![](https://github.com/krispedia/krispedia.github.io/tree/master/assets/images/firewall_target.jpg)
 #### 7-5 소스 IP 범위 지정 
-![](../assets/images/firewall_ip.jpg)
+![](https://github.com/krispedia/krispedia.github.io/tree/master/assets/images/firewall_ip.jpg)
 #### 7-6 프로토콜과 포트 번호 지정
 ![](../assets/images/firewall_protocol_port.jpg)
 
 ### 8. 연결 확인
 외부에서 DB 연결
-![](../assets/images/mongodb_check.jpg)
+![](https://github.com/krispedia/krispedia.github.io/tree/master/assets/images/mongodb_check.jpg)
