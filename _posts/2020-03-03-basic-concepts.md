@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "[cppreference] Basic concepts"
+title: "[cppreference] 기본 개념"
 categories: cpp
 tag : [C++]
 ---
-
-_원문 : [https://en.cppreference.com/w/cpp/language/basic_concepts](https://en.cppreference.com/w/cpp/language/basic_concepts)_
-<div class="divider"></div>
 
 C++ 언어의 특별한 용어와 기본 개념 소개  
 
@@ -24,4 +21,11 @@ C++ 프로그램은 값, 객체, 레버런드 , 바인딩, 함수, enumerator, �
 
 C++ 언어의 각 객체, reference, 함수, 수식은 각각의 타입이 있고 이 타입은 기본적으로 제공하는 것, 사용자 정의 타입 등이 있다.  
 
-선언된 객체와 선언된 reference는 정적 데이터가 아니며 이를 변수라 부른다.  
+선언된 객체와 선언된 reference는 정적 데이터가 아니며 이를 변수라 부른다.   
+
+
+
+---
+**[참고자료]**  
+
+[https://en.cppreference.com/w/cpp/language/basic_concepts](https://en.cppreference.com/w/cpp/language/basic_concepts)_
