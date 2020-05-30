@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! I'm a student majoring in ITcae. 
+Hello! I'm a person who is interested in computer science and IT technology.
 
 <br>
 
