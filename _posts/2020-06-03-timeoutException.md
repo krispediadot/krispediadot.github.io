@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[BOJ] 9461. 파도반 수열"
-categories: ps
-tag : [boj, cpp]
+title: "[crawling] timeoutException 에러 발생시 "
+categories: 
+tag : []
 ---
 
 ### 크롤링 시 timeoutException 뜨는 경우
