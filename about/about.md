@@ -16,4 +16,4 @@ E-Mail : krispediadot@gmail.com
 
 Github : [https://github.com/krispedia](https://github.com/krispedia)
 
-CV : [CV](https://krispedia.github.io/assets/files/cv.pdf)
+CV : [CV]()
