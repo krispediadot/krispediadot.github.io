@@ -89,7 +89,7 @@ do
     echo 'admin contents'
   # admin 내용 아닌건 백업
   else
-    # 2. db에 있는 collection 이름
+    # 3. db에 있는 collection 이름
     echo 'DB Name ===' $db
     # argv[1] = collectionNames, argv[2] = db이름으로 해당 db에 있는 collection 이름 가져옴. 
     COLLECTIONNames=$(python3 dbNames.py collectionNames $db)
