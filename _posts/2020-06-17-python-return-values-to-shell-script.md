@@ -21,6 +21,7 @@ _쉘 스크립트를 기초부터 공부한게 아니라 아래의 코드가 잘
 # dbNames.py
 
 import sys
+
 from pymongo import MongoClient
 mongo = MongoClient(host=서버 이름,
                      port=27017, 
