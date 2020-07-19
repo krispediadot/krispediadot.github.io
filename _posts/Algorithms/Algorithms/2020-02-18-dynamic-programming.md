@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "[Algorithms] Dynamic Programming"
-categories: algo
-tag : [algorithms]
+categories: algorithms
+tag : [Algorithms]
 ---
 
 ### Dynamic Programming 이란?  
