@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Design Pattern] Design Pattern Intro"
-categories: 
+categories: design
 tag : []
 ---
 
