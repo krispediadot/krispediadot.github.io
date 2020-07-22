@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Raspberry Pi] button"
-categories: farec
+categories: fa-rec
 tag : [raspberry pi]
 ---
 <div class="divider"></div>

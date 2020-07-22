@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /Projects/FA-REC
+permalink: /fa-rec
 title: FA-REC
 ---
 
 <div id="archives">
   <h3 class="category-head">{{ category_name }}</h3>
   <a name="{{ category_name | slugize }}"></a>
-  {% for post in site.categories.farec %}
+  {% for post in site.categories.fa-rec %}
   <article class="post-item">
     <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
     <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>

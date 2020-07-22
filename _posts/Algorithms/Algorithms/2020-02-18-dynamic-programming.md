@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Algorithms] Dynamic Programming"
+title: "[Algorithm] Dynamic Programming"
 categories: algorithms
 tag : [Algorithms]
 ---

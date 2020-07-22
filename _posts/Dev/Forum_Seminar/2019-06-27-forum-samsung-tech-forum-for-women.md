@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Forum] Samsung Tech Forum for Women"
-categories: fs
+categories: forum-seminar
 tag : []
 ---
 

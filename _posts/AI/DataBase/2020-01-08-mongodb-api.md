@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[MongoDB] DB에 저장된 데이터 Json 형식 api로 제공하기"
-categories: db
+categories: database
 tag : [MongoDB]
 ---
 

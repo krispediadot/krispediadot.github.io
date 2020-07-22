@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[MongoDB] homebrew 사용하지 않고 설치 및 설정하기"
-categories: db
+categories: database
 tag : [MongoDB]
 ---
 

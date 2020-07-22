@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[MongoDB] docker로 MongoDB 실행하기"
-categories: db
+categories: database
 tag : [MongoDB]
 ---
 
