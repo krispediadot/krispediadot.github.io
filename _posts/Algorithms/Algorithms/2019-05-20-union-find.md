@@ -291,7 +291,7 @@ int main(){
 </div>
 </details>
 
-- 결과  
+- 전체 코드 실행 결과  
     ![](https://krispedia.github.io/assets/images/union_find_ex3.jpg)
 
 ### 4. Union Find 프로시저 성능 향상
