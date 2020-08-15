@@ -340,7 +340,7 @@ O(nlogn)
 ```cpp
 int size[10] = {1};
 
-void UNION(char e1, char e2, SetItem **set){
+void Weighted_Union(char e1, char e2, SetItem **set){
     char x = FIND_SET(e1, set);
     char y = FIND_SET(e2, set);
     int xIndex, yIndex;
