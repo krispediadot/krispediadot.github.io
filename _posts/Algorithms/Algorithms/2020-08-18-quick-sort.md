@@ -11,6 +11,9 @@ tag : [Sort]
 
 ### 2. 퀵 정렬 동작 방법
 --- 
+1단계. 기준이 될 값(pivot) 선택  
+2단계. 기준 값보다 작은 값은 기준 값의 Index보다 앞, 큰 값은 기준 값 Index보다 뒤 
+3단계. 기준 값보다 작은 값, 큰값 정렬(1~3단계 반복)  
 
 ### 3. 시간복잡도
 ---
@@ -19,6 +22,8 @@ tag : [Sort]
 
 ### 4. 구현 
 ---
+기준 값(pivot)을 정하는 방식에 따라 여러 방법이 있음 
+
 - Pseudo Code
 ```
 partition(A, p, r){
@@ -41,7 +46,7 @@ quickSort(A, p, r){
 ```
 
 #### 4-1. 배열의 마지막 값을 pivot으로 사용한 경우 
-
+---
 <details>
 <summary>C++ 구현 코드 보기</summary>
 <div markdown="1">
@@ -76,7 +81,7 @@ void quickSort(int *A, int p, int r){
 </details>
 
 #### 4-2. first, middle, last 값 중 중간 값을 선택한 경우  
-
+---
 <details>
 <summary>C++ 구현 코드 보기</summary>
 <div markdown="1">
@@ -122,7 +127,7 @@ void quickSort(int *A, int p, int r){
 </details>
 
 #### 4-3. 랜덤한 pivot 선택한 경우  
-
+---
 <details>
 <summary>C++ 구현 코드 보기</summary>
 <div markdown="1">
@@ -164,3 +169,8 @@ void quickSort(int *A, int p, int r){
 ```
 </div>
 </details>
+
+<div class="divider"></div>
+**[참고 자료]**
+- [Introduction to Algorithms, Third Edition](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+- [권오흠 교수님의 알고리즘 강의](https://www.youtube.com/watch?v=i4ZDgJS0_yM&list=PL52K_8WQO5oUuH06MLOrah4h05TZ4n38l&index=34)
