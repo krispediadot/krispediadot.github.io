@@ -20,7 +20,7 @@ n개의 서로 다른 원소를 서로 소인 집합으로 그룹 짓고 연산�
 
 ### 2. Union Find 알고리즘 사용 사례 
 ---
-Union Find 알고리즘은 그래프 알고리즘인 Kruskal 알고리즘 내부에서 간선을 선택하고 MST(Minimum Spanning Tree)를 찾는 과정에서 사용된다.  
+Union Find 알고리즘은 그래프 알고리즘인 Kruskal 알고리즘 내부에서 사이클 생성 여부를 확인할 때 사용된다.  
 
 ### 3. Union Find 기본 프로시저 
 ---

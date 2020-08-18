@@ -49,3 +49,8 @@ void bubbleSort(int arr[], int n){
 ```
 </div>
 </details>
+
+<div class="divider"></div>
+**[참고 자료]**
+- [Introduction to Algorithms, Third Edition](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
+- [권오흠 교수님의 알고리즘 강의](https://www.youtube.com/watch?v=i4ZDgJS0_yM&list=PL52K_8WQO5oUuH06MLOrah4h05TZ4n38l&index=34)
