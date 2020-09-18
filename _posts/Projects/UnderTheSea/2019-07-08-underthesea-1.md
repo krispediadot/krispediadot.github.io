@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Under The Sea] 1단계.데이터 준비하기"
+title: "[Under The Sea] 1. 데이터 준비하기"
 categories: underthesea
 tag : []
 ---
@@ -62,5 +62,5 @@ Mask RCNN 모델에서 학습을 시키기 위해 annotation 파일이 필요<br
 ![vgg annotation 1](https://krispedia.github.io/assets/images/underthesea_vgg_img.jpg)<br>
 
 - 생성된 annotation.json<br>
-![vgg annotation 2](https://krispedia.github.io/assets/images/underthesea_vgg_anno.jpg)<br>
+![vgg annotation 2](https://krispedia.github.io/assets/images/underthesea_vgg_ann.jpg)<br>
 

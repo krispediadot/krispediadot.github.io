@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Under The Sea] 0.프로젝트 개요"
+title: "[Under The Sea] 0. 프로젝트 개요"
 categories: underthesea
 tag : []
 ---
