@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "[Under The Sea] 2단계.Single Classificaion"
+title: "[Under The Sea] 2. Fish Model"
 categories: underthesea
 tag : []
 ---
 
+---
+![fish model](https://krispedia.github.io/assets/images/underthesea_model_2.jpg)
+
+---
