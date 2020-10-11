@@ -1,0 +1,93 @@
+---
+layout: post
+title: "[Jetson Nano] SSH 연결 설정하기"
+categories: 
+tag : []
+---
+
+### 1. Jetson Nano - /etc/ssh/sshd_config 수정
+---
+```
+vim /etc/ssh/sshd_config
+```
+
+실행결과를 살펴보면 아래와 같다.  
+
+![](https://krispedia.github.io/assets/images/jetsonnano_ssh_1.jpg)
+
+설정을 활성화 하거나 변경한다.  
+
+```
+Port 원하는 포트번호 
+Host /etc/ssh/ssh_host_rsa_key
+SyslogFacility AUTH
+LogLevel INFO
+
+LoginGraceTime 2m
+PermitRootLogin yes
+StrictModes yes
+
+PubkeyAuthentication yes
+
+HostbaseAuthentication no
+IgnoreRhosts yes
+PermitEmptyPasswords no
+ChallengeResponseASuthentication no
+
+...
+```
+
+**변경하고 저장할것!!**  
+
+### 2. Jetson Nano - ssh 서비스를 실행한다.  
+---
+```
+sudo service ssh start 
+
+또는 
+
+sudo service ssh restart
+```
+
+### 3. Jetson Nano - ip를 확인한다. 
+---
+```
+ifconfig
+```
+
+![](https://krispedia.github.io/assets/images/jetsonnano_ssh_2.jpg)
+
+### 4. 맥 OS - ssh 키를 생성한다. 
+---
+```
+ssh-keygen -b 2048
+```
+
+### 5. 맥 OS - 생성한 SSH 키 중 public 키를 전송한다. 
+---
+```
+brew install ssh-copy-id  //설치 안되어있는 경우 
+
+ssh-copy-id -i id_rsa_jetsonnano root@본인이 연결하려는 IP주소 -p 본인이 설정한 포트번호
+```
+
+이렇게 전송된 public key는 `/root/.ssh/authorized_keys`위치에서 확인할 수 있다.  
+
+### 6. 맥 OS - ~/.ssh/config 파일 수정한다. 
+--
+```
+touch ~/.ssh/config //config 파일이 없는 경우 
+vim ~/.ssh/config
+```
+
+![](https://krispedia.github.io/assets/images/jetsonnano_ssh_3.jpg)
+
+### 7. 맥 OS - 연결 확인 
+---
+```
+ssh jetson
+```
+
+결과  
+
+![](https://krispedia.github.io/assets/images/jetsonnano_ssh_4.jpg)
