@@ -39,7 +39,7 @@ ChallengeResponseASuthentication no
 
 **변경하고 저장할것!!**  
 
-### 2. Jetson Nano - ssh 서비스를 실행한다.  
+### 2. Jetson Nano - ssh 서비스를 실행
 ---
 ```
 sudo service ssh start 
@@ -49,7 +49,7 @@ sudo service ssh start
 sudo service ssh restart
 ```
 
-### 3. Jetson Nano - ip를 확인한다. 
+### 3. Jetson Nano - ip를 확인
 ---
 ```
 ifconfig
@@ -57,13 +57,13 @@ ifconfig
 
 ![](https://krispedia.github.io/assets/images/jetsonnano_ssh_2.jpg)
 
-### 4. 맥 OS - ssh 키를 생성한다. 
+### 4. 맥 OS - ssh 키를 생성
 ---
 ```
 ssh-keygen -b 2048
 ```
 
-### 5. 맥 OS - 생성한 SSH 키 중 public 키를 전송한다. 
+### 5. 맥 OS - 생성한 SSH 키 중 public 키를 전송
 ---
 ```
 brew install ssh-copy-id  //설치 안되어있는 경우 
@@ -73,7 +73,7 @@ ssh-copy-id -i id_rsa_jetsonnano root@본인이 연결하려는 IP주소 -p 본�
 
 이렇게 전송된 public key는 `/root/.ssh/authorized_keys`위치에서 확인할 수 있다.  
 
-### 6. 맥 OS - ~/.ssh/config 파일 수정한다. 
+### 6. 맥 OS - ~/.ssh/config 파일 수정
 --
 ```
 touch ~/.ssh/config //config 파일이 없는 경우 
