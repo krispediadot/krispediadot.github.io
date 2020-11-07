@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Ubuntu 18.04] jupyter extension 설치 오류 "
-categories: 
+categories: jetsonnano
 tag : []
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Ubuntu 18.04] apt install 명령어 오류 "
-categories: 
+categories: jetsonnano
 tag : []
 ---
 

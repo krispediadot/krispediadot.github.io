@@ -1,17 +1,17 @@
 ---
 layout: post
 title: "[Ubuntu 18.04] vim & vundle 설정 "
-categories: 
+categories: jetsonnano
 tag : []
 ---
 
-1. 설치
+### 1. 설치
 ---
 ```
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-2. 설정
+### 2. 설정
 ---
 ```
 vim .vimrc
@@ -97,7 +97,7 @@ augroup markdown
 augroup END
 ```
 
-3. 적용 
+### 3. 적용 
 ---
 ```
 vim

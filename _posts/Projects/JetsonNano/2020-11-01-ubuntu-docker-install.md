@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Ubuntu 18.04] docker 설치 "
-categories: 
+categories: jetsonnano
 tag : []
 ---
 

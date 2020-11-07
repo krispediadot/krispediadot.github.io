@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Jetson Nano] SSH 연결 설정하기"
-categories: 
+categories: jetsonnano
 tag : []
 ---
 
