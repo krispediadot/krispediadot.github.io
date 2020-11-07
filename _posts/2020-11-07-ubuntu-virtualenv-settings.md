@@ -26,6 +26,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 `mkvirtualenv 이름 --python=python3`: 가상 환경 생성  
 `workon 이름`: 가상 환경 실행  
 `deactivate`: 가상 환경 빠져나오기  
+`rmvirtualenv 이름`: 가상 환경 삭제  
 
 
 
