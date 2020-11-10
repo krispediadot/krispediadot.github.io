@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Algorithm] Priority Queue(우선순위 큐)"
+title: "[Data Structure] Priority Queue(우선순위 큐)"
 categories: algorithms
-tag : [Sort]
+tag : []
 ---
 
 ### 1. Priority Queue 자료구조
