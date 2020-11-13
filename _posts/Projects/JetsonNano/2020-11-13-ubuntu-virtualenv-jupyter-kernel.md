@@ -19,8 +19,8 @@ pip install ipykernel
 
 ### 3. 사용  
 ---
-`python -m ipykernel install --user --name={커널이름}`: 커널 추가  
-`sudo jupyter kernelspec uninstall {kernelname}`: 커널 삭제 
+`python -m ipykernel install --user --name=[가상환경 이름]`: 커널 추가  
+`sudo jupyter kernelspec uninstall [가상환경 이름]`: 커널 삭제 
 
 
 <div class="divider"></div>
