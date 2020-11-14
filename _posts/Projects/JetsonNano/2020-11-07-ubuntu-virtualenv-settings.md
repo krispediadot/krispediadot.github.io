@@ -13,6 +13,9 @@ pip install virtualenvwrapper
 ```
 
 ### 2. 설정
+
+zsh를 사용중이므로 .zshrc 파일에 아래 설정 내용을 추가(다른 커널을 사용한다면 해당 커널에 맞는 파일을 수정)
+
 ---
 ```
 export WORKON_HOME=~/.virtualenvs
