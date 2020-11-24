@@ -6,7 +6,7 @@ tag : [matplot]
 ---
 
 #### 실행전 
-![matplot korean before](https://krispedia.github.io/assets/images/matplot_korean_before.jpg)
+![matplot korean before](https://krispediadot.github.io/assets/images/matplot_korean_before.jpg)
 
 ```Python
 import matplotlib.pyplot as plt
@@ -17,4 +17,4 @@ plt.rcParams['axes.unicode_minus']=False
 ```
 
 #### 실행후
-![matplot korean after](https://krispedia.github.io/assets/images/matplot_korean_after.jpg)
+![matplot korean after](https://krispediadot.github.io/assets/images/matplot_korean_after.jpg)

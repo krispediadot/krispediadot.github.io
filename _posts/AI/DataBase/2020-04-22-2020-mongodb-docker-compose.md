@@ -47,7 +47,7 @@ mongo -u 유저네임 -p 유저패스워드
 ```
 
 #### 4. NoSQL booster 연결
-![connect](https://krispedia.github.io/assets/images/mongodb_nosql_connect.png)
+![connect](https://krispediadot.github.io/assets/images/mongodb_nosql_connect.png)
 
 
 ---

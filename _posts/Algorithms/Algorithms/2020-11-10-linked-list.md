@@ -164,7 +164,7 @@ int main(){
 
 
 - 결과   
-![](https://krispedia.github.io/assets/images/linked_list_2.jpg)
+![](https://krispediadot.github.io/assets/images/linked_list_2.jpg)
 
 <div class="divider"></div>
 **[참고 자료]**

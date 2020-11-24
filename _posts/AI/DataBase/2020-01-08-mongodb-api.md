@@ -98,4 +98,4 @@ python manage.py runserver
 ```
 
 #### 6. 출력 확인하기 
-![mongo_api](https://krispedia.github.io/assets/images/mongo_api.png)
+![mongo_api](https://krispediadot.github.io/assets/images/mongo_api.png)

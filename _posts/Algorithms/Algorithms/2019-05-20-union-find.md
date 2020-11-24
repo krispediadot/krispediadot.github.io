@@ -157,8 +157,8 @@ void UNION(char e1, char e2, SetItem **set){
 
 #### 3-4. 실행 예시  
 ---
-![](https://krispedia.github.io/assets/images/union_find_ex1.jpg)
-![](https://krispedia.github.io/assets/images/union_find_ex2.jpg)
+![](https://krispediadot.github.io/assets/images/union_find_ex1.jpg)
+![](https://krispediadot.github.io/assets/images/union_find_ex2.jpg)
 
 <details>
 <summary>전체 코드 보기</summary>
@@ -286,7 +286,7 @@ int main(){
 </details>
 
 - 전체 코드 실행 결과  
-    ![](https://krispedia.github.io/assets/images/union_find_ex3.jpg)
+    ![](https://krispediadot.github.io/assets/images/union_find_ex3.jpg)
 
 ### 4. Union Find 프로시저 성능 향상
 --- 

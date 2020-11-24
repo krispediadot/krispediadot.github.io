@@ -27,12 +27,12 @@ Daum에서 제공해주는 꽃 검색 기능을 사용하다 어류를 검색해
 ### 사용 모델 : 
 Mask RCNN
 
-![underthesea 1](https://krispedia.github.io/assets/images/underthesea_model_1.jpg)
+![underthesea 1](https://krispediadot.github.io/assets/images/underthesea_model_1.jpg)
 
-![underthesea 2](https://krispedia.github.io/assets/images/underthesea_model_2.jpg)
+![underthesea 2](https://krispediadot.github.io/assets/images/underthesea_model_2.jpg)
 
-![underthesea 3](https://krispedia.github.io/assets/images/underthesea_model_3.jpg)
+![underthesea 3](https://krispediadot.github.io/assets/images/underthesea_model_3.jpg)
 
-![underthesea 4](https://krispedia.github.io/assets/images/underthesea_model_4.jpg)
+![underthesea 4](https://krispediadot.github.io/assets/images/underthesea_model_4.jpg)
 
 

@@ -14,7 +14,7 @@ tag : []
 그동안 '레오포드 FC750R' 키보드를 사용하려고 중고로 구매했다.
 '레오포드 FC750R' 제품의 설명서에는 MacOS는 지원하지 않는다고 적혀있다. 
 
-![macos not supported](https://krispedia.github.io/assets/images/macos_not_supported.jpg)
+![macos not supported](https://krispediadot.github.io/assets/images/macos_not_supported.jpg)
 
 키보드 키 역시 MacOS용 command 등등의 키들이 없다. 
 
@@ -26,34 +26,34 @@ tag : []
 ---
 키보드 설정에 들어간다.
 
-![keyboard](https://krispedia.github.io/assets/images/systempreference_keyword.jpg)
+![keyboard](https://krispediadot.github.io/assets/images/systempreference_keyword.jpg)
 
 ### 2. Modifier Keys...
 ---
 키 설정에 들어간다. 
 
-![modifier keys](https://krispedia.github.io/assets/images/modifier_keys.jpg)
+![modifier keys](https://krispediadot.github.io/assets/images/modifier_keys.jpg)
 
 ### 3. select keyboard -> HID Keyboard
 ---
 Apple Internal Keyboard 에서 HID Keyboard로 변경한다.
 
-![select keyboard](https://krispedia.github.io/assets/images/select_keyboard.jpg)
+![select keyboard](https://krispediadot.github.io/assets/images/select_keyboard.jpg)
 
-![HID Keyboard](https://krispedia.github.io/assets/images/hid_keyboard.jpg)
+![HID Keyboard](https://krispediadot.github.io/assets/images/hid_keyboard.jpg)
 
 ### 4. Option Key, Command Key 설정 변경
 ---
 아래와 같이 2개 키의 설정을 변경한 후 `OK` 버튼을 누른다. 
 
-![option command key](https://krispedia.github.io/assets/images/option_comment_key.jpg)
+![option command key](https://krispediadot.github.io/assets/images/option_comment_key.jpg)
 
 ### 5. (옵션) 키보드의 키를 변경한다.
 ---
 command 키캡이 없으니 Windows 키로 대체  
 option 키가 따로 없으니 Alt 키로 대체  
 
-![change keys](https://krispedia.github.io/assets/images/change_keys.jpg)
+![change keys](https://krispediadot.github.io/assets/images/change_keys.jpg)
 
 이렇게 설정을 하면 최대한 Windows용 키보드를 MacOS 기본 내장 키보드와 비슷하게 사용할 수 있다. 그리고 기본 내장된 키보드에는 변경사항의 영향이 없다.
 

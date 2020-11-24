@@ -11,7 +11,7 @@ tag : []
 
 서울과 수원에서 셔틀버스를 타고만 안으로 들어갈 수 있었다. (개인적으로 들어갈 수 없다고 함)<br>
 
-![STFW 1](https://krispedia.github.io/assets/images/STFW_1.jpg)<br>
+![STFW 1](https://krispediadot.github.io/assets/images/STFW_1.jpg)<br>
 
 행사장 건물 1층에 크게 띄워져있던 포스터! <br>
 
@@ -36,7 +36,7 @@ tag : []
 sw 세션에서는 1시간 동안 미니 알고리즘 대회를 열어 급 스트레스를 받았지만 그외 시간들은 정말정말 유익했다.<br>
 정말 하나의 도시 같았던 디지털 시티!<br>
 
-![STFW 2](https://krispedia.github.io/assets/images/STFW_2.jpg)<br>
+![STFW 2](https://krispediadot.github.io/assets/images/STFW_2.jpg)<br>
 
 **이번 포럼을 다녀와서 '여성 엔지니어'에 포커스를 맞추기 보다 '엔지니어'에 포커스를 맞춰야 겠다는 생각이 들었다.**<br>
 이 생각은 vision talk 시간이 본인의 삶에 대해 이야기 해주신 직원분의 발표자료 제목에서 나왔다. <br>

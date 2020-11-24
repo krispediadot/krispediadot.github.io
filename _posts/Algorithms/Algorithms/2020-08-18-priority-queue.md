@@ -10,7 +10,7 @@ tag : []
 
 #### 1-1. 정의 
 ---
-![](https://krispedia.github.io/assets/images/priority_queue_1.jpg)
+![](https://krispediadot.github.io/assets/images/priority_queue_1.jpg)
 우선순위의 값이 최대 또는 최소인 값을 꺼낼 수 있는 큐  
 
 #### 1-2. 종류 
@@ -23,7 +23,7 @@ tag : []
  
 #### 1-3. 표현 시 사용되는 자료구조 
 ---
-![](https://krispedia.github.io/assets/images/heap_2.jpg)
+![](https://krispediadot.github.io/assets/images/heap_2.jpg)
 
 heap으로 priority queue(우선순위 큐)를 구현할 수 있다.  
 

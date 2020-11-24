@@ -15,13 +15,13 @@ tag : [raspberry pi]
 <div class="divider"></div>
 
 - **breadboard에 버튼 연결**<br>
-![raspberry button 1](https://krispedia.github.io/assets/images/raspberrypi_button_1.jpg)
+![raspberry button 1](https://krispediadot.github.io/assets/images/raspberrypi_button_1.jpg)
 
 - **GPIO 15번 핀을 사용** <br>
-![raspberry gpio](https://krispedia.github.io/assets/images/raspberrypi_gpio.jpg)
+![raspberry gpio](https://krispediadot.github.io/assets/images/raspberrypi_gpio.jpg)
 
 - **button에 연결한 wire를 15번 핀과 GND에 연결**<br>
-![raspberry button 3](https://krispedia.github.io/assets/images/raspberrypi_button_3.jpg)
+![raspberry button 3](https://krispediadot.github.io/assets/images/raspberrypi_button_3.jpg)
 
 - **테스트 코드**<br>
 

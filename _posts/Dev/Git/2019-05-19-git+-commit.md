@@ -15,23 +15,23 @@ _/-- 실습 환경: Mac OS & zsh with oh-my-zsh --/_
 
     add만 되어있는 상태 
 
-    ![git+ commit 1](https://krispedia.github.io/assets/images/git+_commit_1.jpg)
+    ![git+ commit 1](https://krispediadot.github.io/assets/images/git+_commit_1.jpg)
 
-    ![git+ commit 2](https://krispedia.github.io/assets/images/git+_commit_2.jpg)
+    ![git+ commit 2](https://krispediadot.github.io/assets/images/git+_commit_2.jpg)
 
     **[commit 하기 전]**
 
-    ![git+ commit 3](https://krispedia.github.io/assets/images/git+_commit_3.jpg)
+    ![git+ commit 3](https://krispediadot.github.io/assets/images/git+_commit_3.jpg)
 
-    ![git+ commit 4](https://krispedia.github.io/assets/images/git+_commit_4.jpg)
+    ![git+ commit 4](https://krispediadot.github.io/assets/images/git+_commit_4.jpg)
 
     b3, f8 폴더와 해쉬값이 생성됩니다. <br>
 
     git log로 확인해보면 
 
-    ![git+ commit 5](https://krispedia.github.io/assets/images/git+_commit_5.jpg)
+    ![git+ commit 5](https://krispediadot.github.io/assets/images/git+_commit_5.jpg)
 
-    ![git+ commit 6](https://krispedia.github.io/assets/images/git+_commit_6.jpg)
+    ![git+ commit 6](https://krispediadot.github.io/assets/images/git+_commit_6.jpg)
 
     commit한 내용의 해쉬가 b3f4b1656--- 인것을 알 수 있습니다. <br>
 
@@ -43,12 +43,12 @@ _/-- 실습 환경: Mac OS & zsh with oh-my-zsh --/_
 - **.git 폴더 내부 COMMIT_EDITMSG**
     objects 폴더의 변화와 함께 commit_deitmsg 파일이 생성됩니다. 
 
-    ![git+ commit 7](https://krispedia.github.io/assets/images/git+_commit_7.jpg)
+    ![git+ commit 7](https://krispediadot.github.io/assets/images/git+_commit_7.jpg)
 
     파일에는 commit시 작성했던 commit message가 저장되어 있습니다. 
 
-    ![git+ commit 8](https://krispedia.github.io/assets/images/git+_commit_8.jpg)
+    ![git+ commit 8](https://krispediadot.github.io/assets/images/git+_commit_8.jpg)
 
-    ![git+ commit 9](https://krispedia.github.io/assets/images/git+_commit_9.jpg)
+    ![git+ commit 9](https://krispediadot.github.io/assets/images/git+_commit_9.jpg)
 
 

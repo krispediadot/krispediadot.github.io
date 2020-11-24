@@ -29,7 +29,7 @@ console.log("hello");
 
 #### 2- test.js 파일을 실행해 봅시다.<br>
 
-![test.js](https://krispedia.github.io/assets/images/test_js.jpg)
+![test.js](https://krispediadot.github.io/assets/images/test_js.jpg)
 
 console 객체를 이용해 콘솔창에 결과를 뿌려주었습니다. <br>
 `console.log("hello");`<br>
@@ -82,7 +82,7 @@ npm으로 필요시 설치할 수 있는 **외장모듈**이 있습니다. <br>
 ```
 #### 2- 실습 폴더 내부에 들어가 `npm install`명령어를 실행합니다.<br>
 
-![npm install](https://krispedia.github.io/assets/images/npm_install.jpg)
+![npm install](https://krispediadot.github.io/assets/images/npm_install.jpg)
 
 ## 4. 간단한 익스프레스 샘플(app.js)을 만들어 봅시다.<br>
 
@@ -107,13 +107,13 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 ```
 
-![app.js](https://krispedia.github.io/assets/images/app_js.jpg)
+![app.js](https://krispediadot.github.io/assets/images/app_js.jpg)
 
 #### 2- 실행 후 브라우저를 열어 `http://localhost:3000/`를 확인합니다.<br>
 
 실행 결과 **Cannot GET/** 만 뜹니다. <br>
 
-![node app.js](https://krispedia.github.io/assets/images/node_app_js.jpg)<br>
+![node app.js](https://krispediadot.github.io/assets/images/node_app_js.jpg)<br>
 
 app.js에서는 서버를 시작만 하도록 해 놓았기 때문에 어떠한 일도 하지 않습니다.<br>
 
@@ -144,10 +144,10 @@ http.createServer(app).listen(3000, function(){
 });
 ```
 **실행**<br>
-![node app2 c.js](https://krispedia.github.io/assets/images/node_app2_js_c.jpg)<br>
+![node app2 c.js](https://krispediadot.github.io/assets/images/node_app2_js_c.jpg)<br>
 
 **브라우저**<br>
-![node app2.js](https://krispedia.github.io/assets/images/node_app2_js.jpg)<br>
+![node app2.js](https://krispediadot.github.io/assets/images/node_app2_js.jpg)<br>
 
 미들웨어에서 요청을 처리해줬습니다.<br>
 
@@ -188,10 +188,10 @@ http.createServer(app).listen(3000, function(){
 ```
 
 **실행**<br>
-![node app3.js](https://krispedia.github.io/assets/images/node_app3_js.jpg)<br>
+![node app3.js](https://krispediadot.github.io/assets/images/node_app3_js.jpg)<br>
 
 **브라우저**<br>
-![node app3 b.js](https://krispedia.github.io/assets/images/node_app3_js_b.jpg)<br>
+![node app3 b.js](https://krispediadot.github.io/assets/images/node_app3_js_b.jpg)<br>
 
 ## 7.미들웨어에서 send 메소드를 이용해봅시다.<br>
 
@@ -218,10 +218,10 @@ http.createServer(app).listen(3000, function(){
 });
 ```
 **실행**<br>
-![node app4.js](https://krispedia.github.io/assets/images/node_app4_js.jpg)<br>
+![node app4.js](https://krispediadot.github.io/assets/images/node_app4_js.jpg)<br>
 
 **브라우저**<br>
-![node app4 b.js](https://krispedia.github.io/assets/images/node_app4_js_b.jpg)<br>
+![node app4 b.js](https://krispediadot.github.io/assets/images/node_app4_js_b.jpg)<br>
 
 ## 8.미들웨어 응답시 redirect해서 google.com으로 이동해봅시다.<br>
 
@@ -248,10 +248,10 @@ http.createServer(app).listen(3000, function(){
 });
 ```
 **실행**<br>
-![node app5.js](https://krispedia.github.io/assets/images/node_app5_js.jpg)<br>
+![node app5.js](https://krispediadot.github.io/assets/images/node_app5_js.jpg)<br>
 
 **브라우저**<br>
-![node app5 b.js](https://krispedia.github.io/assets/images/node_app5_js_b.jpg)<br>
+![node app5 b.js](https://krispediadot.github.io/assets/images/node_app5_js_b.jpg)<br>
 
 ## 9.미들웨어로 요청값을 보내고 확인해봅시다.<br>
 
@@ -286,10 +286,10 @@ http.createServer(app).listen(3000, function(){
 });
 ```
 **실행**<br>
-![node app6.js](https://krispedia.github.io/assets/images/node_app6_js.jpg)<br>
+![node app6.js](https://krispediadot.github.io/assets/images/node_app6_js.jpg)<br>
 
 **브라우저**<br>
-![node app6 b.js](https://krispedia.github.io/assets/images/node_app6_js_b.jpg)<br>
+![node app6 b.js](https://krispediadot.github.io/assets/images/node_app6_js_b.jpg)<br>
 
 ## 10.POST 방식으로 파라미터를 전달해 봅시다.<br>
 ```js
@@ -340,11 +340,11 @@ http.createServer(app).listen(app.get('port'), function(){
 ```
 
 **실행**<br>
-![node app7.js](https://krispedia.github.io/assets/images/node_app7_js.jpg)<br>
+![node app7.js](https://krispediadot.github.io/assets/images/node_app7_js.jpg)<br>
 
 **브라우저**<br>
-![node app7 1.js](https://krispedia.github.io/assets/images/node_app7_js_1.jpg)<br>
-![node app7 2.js](https://krispedia.github.io/assets/images/node_app7_js_2.jpg)<br>
+![node app7 1.js](https://krispediadot.github.io/assets/images/node_app7_js_1.jpg)<br>
+![node app7 2.js](https://krispediadot.github.io/assets/images/node_app7_js_2.jpg)<br>
 
 ## 11.라우터 객체를 이용해 로그인 페이지 만들기<br>
 
@@ -410,11 +410,11 @@ http.createServer(app).listen(app.get('port'), function(){
 
 ```
 **실행**<br>
-![node app8.js](https://krispedia.github.io/assets/images/node_app8_js.jpg)<br>
+![node app8.js](https://krispediadot.github.io/assets/images/node_app8_js.jpg)<br>
 
 **브라우저**<br>
-![node app8 1.js](https://krispedia.github.io/assets/images/node_app8_js_1.jpg)<br>
-![node app8 2.js](https://krispedia.github.io/assets/images/node_app8_js_2.jpg)<br>
+![node app8 1.js](https://krispediadot.github.io/assets/images/node_app8_js_1.jpg)<br>
+![node app8 2.js](https://krispediadot.github.io/assets/images/node_app8_js_2.jpg)<br>
 
 ## 12.코드를 조금 수정해 봅시다.<br>
 
@@ -482,11 +482,11 @@ http.createServer(app).listen(app.get('port'), function(){
 ```
 
 **실행**<br>
-![node app8 02.js](https://krispedia.github.io/assets/images/node_app802_js.jpg)<br>
+![node app8 02.js](https://krispediadot.github.io/assets/images/node_app802_js.jpg)<br>
 
 **브라우저**<br>
-![node app8 b.js](https://krispedia.github.io/assets/images/node_app802_js_1.jpg)<br>
-![node app8 b.js](https://krispedia.github.io/assets/images/node_app802_js_2.jpg)<br>
+![node app8 b.js](https://krispediadot.github.io/assets/images/node_app802_js_1.jpg)<br>
+![node app8 b.js](https://krispediadot.github.io/assets/images/node_app802_js_2.jpg)<br>
 
 ## 13.이제 error를 처리해 봅시다.<br>
 
@@ -560,10 +560,10 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 ```
 **실행**<br>
-![node app9.js](https://krispedia.github.io/assets/images/node_app9_js.jpg)<br>
+![node app9.js](https://krispediadot.github.io/assets/images/node_app9_js.jpg)<br>
 
 **브라우저**<br>
-![node app9 b.js](https://krispedia.github.io/assets/images/node_app9_js_b.jpg)<br>
+![node app9 b.js](https://krispediadot.github.io/assets/images/node_app9_js_b.jpg)<br>
 
 ## 14.URL을 param 객체로 확인해 봅시다.<br>
 ```js
@@ -623,11 +623,11 @@ http.createServer(app).listen(app.get('port'), function(){
 
 ```
 **실행**<br>
-![node app10.js](https://krispedia.github.io/assets/images/node_app10_js.jpg)<br>
+![node app10.js](https://krispediadot.github.io/assets/images/node_app10_js.jpg)<br>
 
 **브라우저**<br>
-![node app10 b 1.js](https://krispedia.github.io/assets/images/node_app10_js_b1.jpg)<br>
-![node app10 b 2.js](https://krispedia.github.io/assets/images/node_app10_js_b2.jpg)<br>
+![node app10 b 1.js](https://krispediadot.github.io/assets/images/node_app10_js_b1.jpg)<br>
+![node app10 b 2.js](https://krispediadot.github.io/assets/images/node_app10_js_b2.jpg)<br>
 
 ## 15.coockie를 이용해봅시다!<br>
 ```js
@@ -709,11 +709,11 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 ```
 **실행**<br>
-![node app11.js](https://krispedia.github.io/assets/images/node_app11_js.jpg)<br>
+![node app11.js](https://krispediadot.github.io/assets/images/node_app11_js.jpg)<br>
 
 **브라우저**<br>
-![node app11 b 1.js](https://krispedia.github.io/assets/images/node_app11_js_b1.jpg)<br>
-![node app11 b 2.js](https://krispedia.github.io/assets/images/node_app11_js_b2.jpg)<br>
+![node app11 b 1.js](https://krispediadot.github.io/assets/images/node_app11_js_b1.jpg)<br>
+![node app11 b 2.js](https://krispediadot.github.io/assets/images/node_app11_js_b2.jpg)<br>
 
 ## 16.이번엔 session을 사용해서 여러 페이지를 만들어 봅시다.<br>
 ```js
@@ -847,12 +847,12 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 ```
 **실행**<br>
-![node app12.js](https://krispedia.github.io/assets/images/node_app12_js.jpg)<br>
+![node app12.js](https://krispediadot.github.io/assets/images/node_app12_js.jpg)<br>
 
 **브라우저**<br>
-![node app12 b 1.js](https://krispedia.github.io/assets/images/node_app12_js_b1.jpg)<br>
-![node app12 b 2.js](https://krispedia.github.io/assets/images/node_app12_js_b2.jpg)<br>
-![node app12 b 3.js](https://krispedia.github.io/assets/images/node_app12_js_b3.jpg)<br>
+![node app12 b 1.js](https://krispediadot.github.io/assets/images/node_app12_js_b1.jpg)<br>
+![node app12 b 2.js](https://krispediadot.github.io/assets/images/node_app12_js_b2.jpg)<br>
+![node app12 b 3.js](https://krispediadot.github.io/assets/images/node_app12_js_b3.jpg)<br>
 
 ## 17.파일 업로드를 해 봅시다.<br>
 ```js
@@ -1010,12 +1010,12 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 ``` 
 **실행**<br>
-![node app13.js](https://krispedia.github.io/assets/images/node_app13_js.jpg)<br>
+![node app13.js](https://krispediadot.github.io/assets/images/node_app13_js.jpg)<br>
 
 **브라우저**<br>
-![node app13 b 1.js](https://krispedia.github.io/assets/images/node_app13_js_b1.jpg)<br>
-![node app13 b 2.js](https://krispedia.github.io/assets/images/node_app13_js_b2.jpg)<br>
-![node app13 b 3.js](https://krispedia.github.io/assets/images/node_app13_js_b3.jpg)<br>
+![node app13 b 1.js](https://krispediadot.github.io/assets/images/node_app13_js_b1.jpg)<br>
+![node app13 b 2.js](https://krispediadot.github.io/assets/images/node_app13_js_b2.jpg)<br>
+![node app13 b 3.js](https://krispediadot.github.io/assets/images/node_app13_js_b3.jpg)<br>
 
 ## 18.이번엔 파일을 다운받아 봅시다.<br>
 ```js
@@ -1217,9 +1217,9 @@ var server = http.createServer(app).listen(app.get('port'), function(){
 ``` 
 
 **실행**<br>
-![node app14.js](https://krispedia.github.io/assets/images/node_app14_js.jpg)<br>
+![node app14.js](https://krispediadot.github.io/assets/images/node_app14_js.jpg)<br>
 
 **브라우저**<br>
-![node app14 b 1.js](https://krispedia.github.io/assets/images/node_app14_js_b1.jpg)<br>
-![node app14 b 2.js](https://krispedia.github.io/assets/images/node_app14_js_b2.jpg)<br>
-![node app14 b 3.js](https://krispedia.github.io/assets/images/node_app14_js_b3.jpg)<br>
+![node app14 b 1.js](https://krispediadot.github.io/assets/images/node_app14_js_b1.jpg)<br>
+![node app14 b 2.js](https://krispediadot.github.io/assets/images/node_app14_js_b2.jpg)<br>
+![node app14 b 3.js](https://krispediadot.github.io/assets/images/node_app14_js_b3.jpg)<br>

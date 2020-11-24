@@ -6,6 +6,6 @@ tag : []
 ---
 
 ---
-![fish model](https://krispedia.github.io/assets/images/underthesea_model_2.jpg)
+![fish model](https://krispediadot.github.io/assets/images/underthesea_model_2.jpg)
 
 ---

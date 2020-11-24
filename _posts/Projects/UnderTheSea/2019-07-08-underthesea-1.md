@@ -12,16 +12,16 @@ tag : []
 --- 
 468종의 3960개의 이미지를 가진 데이터셋<br>
 - cropped<br>
-![cropped 1](https://krispedia.github.io/assets/images/qut_data_cropped.jpg)<br>
+![cropped 1](https://krispediadot.github.io/assets/images/qut_data_cropped.jpg)<br>
 
 - raw_images<br>
-![raw image 1](https://krispedia.github.io/assets/images/qut_data_raw.jpg)<br>
+![raw image 1](https://krispediadot.github.io/assets/images/qut_data_raw.jpg)<br>
 
 cropped/raw_images 두가지 버전을 중 지느러미 전체를 포함시키기 위해 raw_images 사용.<br> 
 raw_images에 검은색으로 패딩을 통해 균일한 크기의 이미지로 재가공함.<br>
 
 - resized_images<br>
-![resized image 1](https://krispedia.github.io/assets/images/qut_data_resized.jpg)<br>
+![resized image 1](https://krispediadot.github.io/assets/images/qut_data_resized.jpg)<br>
 
 ###### 장점:
 많은 종의 어류 데이터를 가지고 있음<br>
@@ -59,8 +59,8 @@ Mask RCNN 모델에서 학습을 시키기 위해 annotation 파일이 필요<br
 [VGG Image Annotator(VIA)](https://www.robots.ox.ac.uk/~vgg/software/via/) 를 사용해 annotation 파일 생성<br>
 
 - polygon 형태의 annotation<br>
-![vgg annotation 1](https://krispedia.github.io/assets/images/underthesea_vgg_img.jpg)<br>
+![vgg annotation 1](https://krispediadot.github.io/assets/images/underthesea_vgg_img.jpg)<br>
 
 - 생성된 annotation.json<br>
-![vgg annotation 2](https://krispedia.github.io/assets/images/underthesea_vgg_ann.jpg)<br>
+![vgg annotation 2](https://krispediadot.github.io/assets/images/underthesea_vgg_ann.jpg)<br>
 

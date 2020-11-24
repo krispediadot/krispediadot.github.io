@@ -17,15 +17,15 @@ tag : [git, branch]
 ---
 이렇게 내려받은 후 `git branch`명령으로 확인해보면 master branch만 보인다. <br>
 
-![branch check](https://krispedia.github.io/assets/images/git_branch_check_after_clone.jpg)<br>
+![branch check](https://krispediadot.github.io/assets/images/git_branch_check_after_clone.jpg)<br>
 
 #### 2- `git branch -r` 과 `git branch -a` 확인
 ---
 - `git branch -r`의 결과<br>
-![branch -r check](https://krispedia.github.io/assets/images/git_branch_r_check.jpg)<br>
+![branch -r check](https://krispediadot.github.io/assets/images/git_branch_r_check.jpg)<br>
 
 - `git branch -a`의 결과<br>
-![branch -r check](https://krispedia.github.io/assets/images/git_branch_a_check.jpg)<br>
+![branch -r check](https://krispediadot.github.io/assets/images/git_branch_a_check.jpg)<br>
 
 여기서 원격에 있는 branch를 확인할 수 있다. <br>
 
@@ -33,11 +33,11 @@ tag : [git, branch]
 #### 3- `git checkout -t [brancch 위치]` 명령어로 branch 가져오기
 ---
 나의 경우 **origin/sujin** branch를 가져오고 싶으므로 <br>
-![branch checkout-t ](https://krispedia.github.io/assets/images/git_branch_checkout_t.jpg)<br>
+![branch checkout-t ](https://krispediadot.github.io/assets/images/git_branch_checkout_t.jpg)<br>
 
 #### 4- `git log` 로 해당 branch의 log 확인하기
 ---
-![branch after checkout-t ](https://krispedia.github.io/assets/images/git_branch_after_checkout_t.jpg)<br>
+![branch after checkout-t ](https://krispediadot.github.io/assets/images/git_branch_after_checkout_t.jpg)<br>
 
 
 성공적으로 가져와졌다. <br>

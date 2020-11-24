@@ -13,7 +13,7 @@ vim /etc/ssh/sshd_config
 
 실행결과를 살펴보면 아래와 같다.  
 
-![](https://krispedia.github.io/assets/images/jetsonnano_ssh_1.jpg)
+![](https://krispediadot.github.io/assets/images/jetsonnano_ssh_1.jpg)
 
 설정을 활성화 하거나 변경한다.  
 
@@ -55,7 +55,7 @@ sudo service ssh restart
 ifconfig
 ```
 
-![](https://krispedia.github.io/assets/images/jetsonnano_ssh_2.jpg)
+![](https://krispediadot.github.io/assets/images/jetsonnano_ssh_2.jpg)
 
 ### 4. 맥 OS - ssh 키를 생성
 ---
@@ -80,7 +80,7 @@ touch ~/.ssh/config //config 파일이 없는 경우
 vim ~/.ssh/config
 ```
 
-![](https://krispedia.github.io/assets/images/jetsonnano_ssh_3.jpg)
+![](https://krispediadot.github.io/assets/images/jetsonnano_ssh_3.jpg)
 
 ### 7. 맥 OS - 연결 확인 
 ---
@@ -90,4 +90,4 @@ ssh jetson
 
 결과  
 
-![](https://krispedia.github.io/assets/images/jetsonnano_ssh_4.jpg)
+![](https://krispediadot.github.io/assets/images/jetsonnano_ssh_4.jpg)
