@@ -34,7 +34,7 @@ plugins:
   - jekyll-sitemap
   - bourbon
   - jekyll-paginate
-  
+
 # navbar pages
 navbar:
   - slug : categories
