@@ -35,6 +35,11 @@ plugins:
   - bourbon
   - jekyll-paginate
 
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+
 # navbar pages
 navbar:
   - slug : categories
