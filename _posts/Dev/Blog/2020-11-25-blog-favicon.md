@@ -25,7 +25,7 @@ jekyll 로 github.io 블로그를 만들고 나면 탭에 표시되는 [favicon]
 ![favicon_2](https://krispediadot.github.io/assets/images/favicon_2.jpg) 
 
 
-**이렇게만 추가한 경우 로컬에서는 탭에 이미지가 나왔지만 실제 블로그에는 적용되지 않았지만**<br>
+**이렇게만 추가한 경우 로컬에서는 탭에 이미지가 나왔지만 실제 블로그에는 적용되지 않았습니다.**<br>
 
 **아래의 코드를 추가해 위 문제를 해결했습니다.**<br>
 
