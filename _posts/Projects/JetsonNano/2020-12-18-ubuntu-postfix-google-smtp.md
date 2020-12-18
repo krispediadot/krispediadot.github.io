@@ -37,13 +37,14 @@ postmap /etc/postfix/sasl_passwd
 ```
 
 ### 4. 구글 계정 보안 설정
-
+---
 아래 링크에 들어가 해당 계정 `보안 수준이 낮은 앱의 허용` 설정
 
-(https://myaccount.google.com/lesssecureapps)[https://myaccount.google.com/lesssecureapps]
+https://myaccount.google.com/lesssecureapps
 
 
 ### 5. /etc/postfix/main.cf 설정
+---
 파일 열기
 ```
 vi /etc/postfix/main.cf
@@ -59,11 +60,13 @@ smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 ```
 
 ### 6. postfix 재시작
+---
 ```
 systemctl restart postfix && systemctl enable postfix
 ```
 
 ### 7. 사용
+---
 ```
 mail -s "Test subject" 받는사람@이메일.com
 ```
@@ -71,7 +74,7 @@ mail -s "Test subject" 받는사람@이메일.com
 ![postfix_2](https://krispediadot.github.io/assets/images/postfix_2.jpg)
 
 ### 8. 전송자 이름 변경
-
+---
 받은 메일의 전송자 이름을 보면 `root`로 되어있다.<br>
 
 ![postfix_3](https://krispediadot.github.io/assets/images/postfix_3.jpg)
