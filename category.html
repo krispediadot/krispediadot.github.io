@@ -1,0 +1,35 @@
+---
+title: Category
+permalink: /category/
+layout: page
+excerpt: All post.
+comments: false
+---
+
+{%- for category in site.category -%}
+  {%- capture name -%}{{ category | first }}{%- endcapture -%}
+  <h2 id="{{ name }}">{{ name | upcase }}</h2>
+  {%- for post in site.category1[name] -%}
+    <article class="post-item" id="results-container">
+      <img
+        class="post-item-image"
+        src="{{ post.image }}"
+      />
+      <h4 class="post-item-title">
+        <a href="{{ post.url }}">{{ post.title | escape }}</a>
+      </h4>
+      {% if post.tags and post.tags != empty %}
+      <div class="post-item-tag">
+        {% assign tags = post.tags %}
+        <span itemprop="keywords">
+          {% for tag in tags %}
+          <a class="tag"
+            href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        </span>
+      </div>
+      {% endif %}
+      <span class="post-item-tag"></span>
+      <span class="post-item-date">{{ post.date | date: "%Y/%m/%d" }}</span>
+  {%- endfor -%}
+{%- endfor -%}
