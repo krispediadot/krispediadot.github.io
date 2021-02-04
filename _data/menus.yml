@@ -10,7 +10,7 @@
   url: /about/
   external: false # set true if you using external link, see below
 
-- title: search
+- title: 🔍
   url: /search/
   external: false
   
