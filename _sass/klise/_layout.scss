@@ -13,13 +13,23 @@
 
 // Navigation
 .menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  text-align: left;
+  height: 50px;
+  background-color: $white;
+  border-bottom: 1px solid $light;
   user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
   a#mode {
-    float: left;
-    left: 8px;
-    top: 1px;
+    float: right;
+    right: 8px;
+    top: 13px;
     position: relative;
     clear: both;
     -webkit-transform: scale(1, 1);
@@ -59,45 +69,114 @@
     }
   }
 
+  .title {
+    padding-left: 55px; 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: $base-line-height + 1;
+  }
+
   .trigger {
-    float: right;
+    float: left;
   }
 
   .menu-trigger {
     display: none;
   }
 
+  //
+  // 메뉴 나열해서 보여주는 코드(현재는 모바일과 동일하도록 설정)
+  // 필요시 사용하면 됨.- .menu-link.actuve 전까지 삭제해야함
+  //
+  // .menu-icon {
+  //   display: none;
+  // }
+
+  // .menu-link {
+  //   color: $black;
+  //   line-height: $base-line-height + 1.5;
+  //   text-decoration: none;
+  //   padding: 5px 8px;
+  //   opacity: 0.7;
+  //   letter-spacing: 0.3px;
+
+  //   &:hover {
+  //     opacity: 1;
+  //   }
+
+  //   &:not(:last-child) {
+  //     margin-right: 5px;
+  //   }
+
+  //   &.rss {
+  //     position: relative;
+  //     bottom: -3px;
+  //     outline: none;
+  //   }
+
+  //   @include media-query($on-mobile) {
+  //     opacity: 0.8;
+  //   }
+  // }
+
+  // ------- 추가된 코드
   .menu-icon {
-    display: none;
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 23px;
+    line-height: 0;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    > svg {
+      fill: $black;
+      opacity: 0.7;
+    }
+    &:hover {
+      > svg {
+        opacity: 1;
+      }
+    }
+    &:active {
+      -webkit-transform: scale(0.9, 0.9);
+      transform: scale(0.9, 0.9);
+    }
+  }
+
+  input[type="checkbox"]:not(:checked) ~ .trigger {
+    clear: both;
+    visibility: hidden;
+  }
+
+  input[type="checkbox"]:checked ~ .trigger {
+    position: fixed;
+    animation: 0.2s ease-in forwards fadein;
+    -webkit-animation: 0.2s ease-in forwards fadein;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    height: 100vh;
+    width: 100%;
+    top: 0;
   }
 
   .menu-link {
-    color: $black;
-    line-height: $base-line-height + 0.4;
-    text-decoration: none;
-    padding: 5px 8px;
-    opacity: 0.7;
-    letter-spacing: 0.3px;
-
-    &:hover {
-      opacity: 1;
-    }
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.1em;
 
     &:not(:last-child) {
-      margin-right: 5px;
-    }
-
-    &.rss {
-      position: relative;
-      bottom: -3px;
-      outline: none;
-    }
-
-    @include media-query($on-mobile) {
-      opacity: 0.8;
+      margin: 0;
+      padding: 2px 0;
     }
   }
-
+  // -------
   .menu-link.active {
     opacity: 1;
     font-weight: 600;
@@ -115,14 +194,14 @@
     border-bottom: 1px solid $light;
 
     a#mode {
-      left: 10px;
+      right: 10px;
       top: 12px;
     }
 
     .menu-icon {
       display: block;
       position: absolute;
-      right: 0;
+      left: 0;
       width: 50px;
       height: 23px;
       line-height: 0;
