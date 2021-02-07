@@ -5,7 +5,7 @@ git pages based on [kelisé theme](https://github.com/piharpi/jekyll-klise)
 ---
 
 ### Todo List
-- [ ] /category1/category2/title
+- [x] /category/title
 - [ ] _base.scss - mark 생상 추가 
 - [x] 블로그 이름 navbar 추가(중앙)
 - [x] 다크모드 버튼 위치 조정(오른쪽)
@@ -18,6 +18,7 @@ git pages based on [kelisé theme](https://github.com/piharpi/jekyll-klise)
 - [ ] search 동작하도록
 - [ ] archive search 제거
 - [ ] about 내용 변경
-- [ ] favicon 변경
+- [x] favicon 변경
 - [ ] 도메인 구매
 - [ ] 커스텀 url 설정
+- [ ] > 글자 왼쪽 정렬 
