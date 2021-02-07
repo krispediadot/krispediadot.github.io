@@ -52,15 +52,7 @@ layout: compress
               {{ page.date | date: "%Y/%m/%d" }}
             </time>
             <img class="author-img" src="{{ site.author.avatar }}" />
-            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-              <a itemprop="name" href="/about">{{ site.author.name }}</span>
-            </span>
-            <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
-              {{ page.date | date: "%Y/%m/%d" }}
-            </time>
-            <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
-            <span hidden itemprop="image">{{ page.image }}</span>
-            <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
+            <a itemprop="author-name" href="/about">{{ site.author.name }}</span>
           </div>
           {% endif %}
         </header>
