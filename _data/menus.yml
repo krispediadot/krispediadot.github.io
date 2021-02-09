@@ -2,6 +2,10 @@
   url: /
   external: false
 
+- title: category
+  url: /category/
+  external: false
+
 - title: archive
   url: /archive/
   external: false
