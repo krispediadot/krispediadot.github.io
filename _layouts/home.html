@@ -1,0 +1,30 @@
+---
+layout: default
+home: true
+---
+
+<h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+{%- for post in site.posts limit: site.number_of_posts -%}
+<article class="post-item">
+  <img
+    class="post-item-image"
+    src="{{ post.image }}"
+  />
+  <h4 class="post-item-title">
+    <a href="{{ post.url }}">{{ post.title | escape }}</a>
+  </h4>
+  {% if post.tags and post.tags != empty %}
+  <div class="post-item-tag">
+    {% assign tags = post.tags %}
+    <span itemprop="keywords">
+      {% for tag in tags %}
+      <a class="tag"
+        href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </span>
+  </div>
+  {% endif %}
+  <span class="post-item-tag"></span>
+  <span class="post-item-date">{{ post.date | date: "%Y/%m/%d" }}</span>
+</article>
+{%- endfor -%}

@@ -1,0 +1,43 @@
+---
+title: Tags
+permalink: /tags/
+layout: page
+excerpt: Sorted article by tags.
+---
+
+<div class="archive-tags">
+  <a class="tag-item" href="#">all</a>
+  {%- for tag in site.tags -%} 
+    {% capture name %}{{ tag | first }}{% endcapture %}
+    <a class="tag-item" href="#{{name}}">{{ name }}</a> 
+  {%- endfor -%}
+</div>
+
+{%- for tag in site.tags -%}
+  {%- capture name -%}{{ tag | first }}{%- endcapture -%}
+  <h2 id="{{ name }}">{{ name | upcase }}</h2>
+  {%- for post in site.tags[name] -%}
+    <article class="post-item" id="results-container">
+      <img
+      class="post-item-image"
+      src="{{ post.image }}"
+      />
+      <h4 class="post-item-title">
+        <a href="{{ post.url }}">{{ post.title | escape }}</a>
+      </h4>
+      {% if post.tags and post.tags != empty %}
+      <div class="post-item-tag">
+        {% assign tags = post.tags %}
+        <span itemprop="keywords">
+          {% for tag in tags %}
+          <a class="tag"
+            href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        </span>
+      </div>
+      {% endif %}
+      <span class="post-item-tag"></span>
+      <span class="post-item-date">{{ post.date | date: "%Y/%m/%d" }}</span> 
+    </article>
+  {%- endfor -%}
+{%- endfor -%}
