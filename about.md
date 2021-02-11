@@ -6,9 +6,9 @@ excerpt:
 comments: false
 ---
 
-BLANK
+I'm Sujin.
 
 **may u needs ✨**
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+**Email**: {{ site.author.email }}<br>
+**Github**: [https://github.com/krispediadot](https://github.com/krispediadot)
