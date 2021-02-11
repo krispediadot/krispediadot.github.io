@@ -19,6 +19,6 @@ git pages based on [kelisé theme](https://github.com/piharpi/jekyll-klise)
 - [ ] archive search 제거
 - [ ] about 내용 변경
 - [x] favicon 변경
-- [ ] 도메인 구매
-- [ ] 커스텀 url 설정
+- [x] 도메인 구매
+- [x] 커스텀 url 설정
 - [ ] > 글자 왼쪽 정렬 
