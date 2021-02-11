@@ -24,7 +24,7 @@ author:
 url: "https://sujinlee.dev" #
 baseurl:
 permalink: /:categories/:title/
-google_analytics: # leave it blank if not wish
+google_analytics: UA-141687000-1 # leave it blank if not wish
 fb_appid:
 
 # Collection setting
