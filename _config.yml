@@ -21,7 +21,7 @@ author:
   avatar: /assets/img/sujin.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://sujinlee.dev" #
 baseurl:
 permalink: /:categories/:title/
 google_analytics: # leave it blank if not wish
