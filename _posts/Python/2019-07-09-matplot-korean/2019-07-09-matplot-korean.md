@@ -10,7 +10,7 @@ cover: ""
 ---
 
 #### 실행전 
-![matplot korean before](https://github.com/krispediadot/krispediadot.github.io/tree/master/_posts/python/2019-07-09-matplot-korean/matplot_korean_before.jpg)
+![matplot korean before](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/Python/2019-07-09-matplot-korean/matplot_korean_before.jpg)
 
 ```python
 import matplotlib.pyplot as plt
@@ -21,4 +21,4 @@ plt.rcParams['axes.unicode_minus']=False
 ```
 
 #### 실행후
-![matplot korean after](https://github.com/krispediadot/krispediadot.github.io/tree/master/_posts/python/2019-07-09-matplot-korean/matplot_korean_after.jpg)
+![matplot korean after](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/Python/2019-07-09-matplot-korean/matplot_korean_after.jpg)
