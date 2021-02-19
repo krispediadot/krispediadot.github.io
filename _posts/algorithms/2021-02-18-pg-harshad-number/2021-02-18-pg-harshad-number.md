@@ -37,20 +37,20 @@ cover: "../puzzle.jpg"
     자리수 합 계산<br>
     ```c++
     int sum = 0;
-    while(tempx>0){
-        sum+=tempx%10;
-        tempx/=10;
+    while (tempx > 0) {
+        sum += (tempx % 10);
+        tempx /= 10;
     }
     ```
     
 1. **(입력 수/자리수 합)의 나머지 0인지 확인**<br>
     ```c++
-    if(x%sum!=0) answer = false; 
+    if (x % sum != 0) answer = false; 
     ```
 
 ### 전체 코드
 ```c++
-#include<iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -61,16 +61,16 @@ bool solution(int x) {
 
     int sum = 0;
     int tempx = x;
-    while(tempx>0){
-        sum+=tempx%10;
-        tempx/=10;
+    while (tempx > 0) {
+        sum += (tempx % 10);
+        tempx /= 10;
     }
-    if(x%sum!=0) answer = false; 
+    if (x % sum != 0) answer = false; 
 
     return answer;
 }
-int main(){
-    int x; cin>>x;
-    cout>>boolalpha>>solution(x);
+int main() {
+    int x; cin >> x;
+    cout >> boolalpha >> solution(x);
 }
 ```
