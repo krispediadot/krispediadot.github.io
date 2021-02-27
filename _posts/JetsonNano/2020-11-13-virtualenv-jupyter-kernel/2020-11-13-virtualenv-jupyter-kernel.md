@@ -1,8 +1,12 @@
 ---
 layout: post
-title: "[Ubuntu 18.04] jupyternotebook에 virtualenv 커널 추가 "
-categories: jetsonnano
-tag : []
+title: Jetson Nano | jupyternotebook에 virtualenv 커널 추가
+date: 2020-11-07 11:00:00 +09:00
+modified: 
+category: jetson nano
+tags: [ubuntu18.04, virtualenv, jupyter]
+image: "/assets/img/nvidia_logo.jpg"
+cover: "../puzzle.jpg"
 ---
 
 ### 1. 가상환경 실행
