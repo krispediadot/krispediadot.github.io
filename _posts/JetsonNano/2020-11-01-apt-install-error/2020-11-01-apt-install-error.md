@@ -1,8 +1,12 @@
 ---
 layout: post
-title: "[Ubuntu 18.04] apt install 명령어 오류 "
-categories: jetsonnano
-tag : []
+title: Jetson Nano | apt install 명령어 오류
+date: 2020-11-01 11:00:00 +09:00
+modified: 
+category: jetson nano
+tags: [ubuntu18.04]
+image: "/assets/img/nvidia_logo.jpg"
+cover: "../puzzle.jpg"
 ---
 
 ```
