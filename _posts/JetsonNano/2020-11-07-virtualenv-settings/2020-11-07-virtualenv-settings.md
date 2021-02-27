@@ -1,8 +1,12 @@
 ---
 layout: post
-title: "[Ubuntu 18.04] virtualenv & virtuelenvwrapper 설정 "
-categories: jetsonnano
-tag : []
+title: Jetson Nano | virtualenv & virtuelenvwrapper 설정
+date: 2020-11-07 11:00:00 +09:00
+modified: 
+category: jetson nano
+tags: [ubuntu18.04, virtualenv]
+image: "/assets/img/nvidia_logo.jpg"
+cover: "../puzzle.jpg"
 ---
 
 ### 1. 설치
