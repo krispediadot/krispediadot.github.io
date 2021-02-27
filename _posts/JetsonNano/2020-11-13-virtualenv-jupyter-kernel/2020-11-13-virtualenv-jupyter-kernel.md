@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jetson Nano | jupyternotebook virtualenv 커널 추가
+title: Jetson Nano | jupyter virtualenv 커널 추가
 date: 2020-11-07 11:00:00 +09:00
 modified: 
 category: jetson nano
