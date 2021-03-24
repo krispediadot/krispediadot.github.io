@@ -5,7 +5,7 @@ date: 2021-03-24 11:00:00 +09:00
 modified: 
 category: blog
 tags: [jekyll]
-image: "/assets/img/jekyll_logo.jpg"
+image: "/assets/img/jekyll_logo.png"
 cover: "../puzzle.jpg"
 ---
 
