@@ -9,6 +9,8 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
+### jupyter extension 설치 오류 해결 방법
+
 ```
 sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```

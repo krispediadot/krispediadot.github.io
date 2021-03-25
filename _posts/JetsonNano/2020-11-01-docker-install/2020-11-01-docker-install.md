@@ -9,6 +9,8 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
+### docker 설치 방법
+
 ```
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
