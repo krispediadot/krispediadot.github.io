@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jetson Nano | docker 설치
+title: Jetson Nano | docker 설치 오류
 date: 2020-11-01 11:00:00 +09:00
 modified: 
 category: jetson nano
@@ -9,8 +9,7 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
-### docker 설치 방법
-
+### 1. 오류 내용
 ```
 sudo apt update
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -24,8 +23,7 @@ apt-cache policy docker-ce
 
 `Package 'docker-ce' has no installation candidate` 에러가 났다.  
 
-아래 명령어로 설치 완료!  
-
+### 2. 해결 방법  
 ```
 sudo snap install docker
 ```
