@@ -55,7 +55,7 @@ hotfix3 branch 에서 gitlog --graph 실행 결과
 변경 후 master branch new1.py
 ![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-rebase/git_rebase_13.png)
 
-add & commit 
+add & commit <br><br>
 ![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-rebase/git_rebase_14.png)
 
 master branch 에서 git log 실행 결과
@@ -82,7 +82,7 @@ new1.py파일에 가서 충돌을 해결합시다.<br>
 수정 후 hotfix3 branch new1.py
 ![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-rebase/git_rebase_20.png)
 
-git add & git rebase --continue
+git add & git rebase --continue<br><br>
 ![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-rebase/git_rebase_21.png)
 
 두번째 충돌 후 hotfix3 branch new1.py
