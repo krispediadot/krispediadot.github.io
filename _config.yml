@@ -1,5 +1,5 @@
 # Site settings
-title: Sujin's Tech Blog # site title
+title: Sujin's Dev Blog # site title
 description: >- # site description
   Tech
 lang: en-US # default lang
@@ -17,7 +17,7 @@ author:
   github: krispediadot # github username
   twitter: # twitter username
   facebook: # facebook username
-  email: krispediadot@email.com # email adress
+  email: krispediadot@gmail.com # email adress
   avatar: /assets/img/sujin.jpg # change with your own avatar
 
 # URL settings
