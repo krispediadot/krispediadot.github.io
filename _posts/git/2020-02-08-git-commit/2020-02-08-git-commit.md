@@ -17,18 +17,18 @@ cover:
 
   폴더 내 파일이 모두 add 되어 있습니다.<br>
 
-  ![git commit 1](https://krispediadot.github.io/assets/images/git_commit_1.jpg)
+  ![git commit 1](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_1.jpg)
 
   지역 저장소에 올리기 위해 commit을 해 봅시다. <br>
   commit을 하기 전에 git log를 한번 확인해 볼까요?!
 
-  ![git commit 2](https://krispediadot.github.io/assets/images/git_commit_2.jpg)
+  ![git commit 2](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_2.jpg)
 
   아직 commit을 한 것이 없다고 알려줍니다. <br>
 
   이제 commit을 해 봅시다!
 
-  ![git commit 3](https://krispediadot.github.io/assets/images/git_commit_3.jpg)
+  ![git commit 3](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_3.jpg)
 
   git commit을 하면 위와 같이 나옵니다. <br>
 
@@ -40,9 +40,9 @@ cover:
 (2).메세지 작성(ex. add new files)<br>
 (3).esc키 + :wq 로 저장합니다. <br>
 
-  ![git commit 4](https://krispediadot.github.io/assets/images/git_commit_4.jpg)
+  ![git commit 4](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_4.jpg)
 
-  ![git commit 5](https://krispediadot.github.io/assets/images/git_commit_5.jpg)
+  ![git commit 5](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_5.jpg)
 
   enter를 누르는 동시에 <br>
 
@@ -62,9 +62,9 @@ cover:
 
   commit 기록을 확인하기 위해 `git log`로 가 봅니다. 
 
-  ![git commit 6](https://krispediadot.github.io/assets/images/git_commit_6.jpg)
+  ![git commit 6](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_6.jpg)
 
-  ![git commit 7](https://krispediadot.github.io/assets/images/git_commit_7.jpg)
+  ![git commit 7](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_7.jpg)
 
   commit 옆에 sha로 해슁된 값이 들어가있고 <br>
   commit 한 사람의 정보<br>
@@ -84,9 +84,9 @@ cover:
 
   new2.txt 파일에 내용을 변경하겠습니다. <br>
 
-  ![git commit 8](https://krispediadot.github.io/assets/images/git_commit_8.jpg)
+  ![git commit 8](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_8.jpg)
 
-  ![git commit 9](https://krispediadot.github.io/assets/images/git_commit_9.jpg)
+  ![git commit 9](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_9.jpg)
 
   상태를 확인해 보면 new2.txt 파일이 modified 되었다고 합니다. <br>
 
@@ -98,18 +98,18 @@ cover:
 
   `git add` 하겠습니다. 
 
-  ![git commit 10](https://krispediadot.github.io/assets/images/git_commit_10.jpg)
+  ![git commit 10](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_10.jpg)
 
   이전과는 다른 방법으로 commit을 하고 메세지를 작성하겠습니다. <br>
 
-  ![git commit 11](https://krispediadot.github.io/assets/images/git_commit_11.jpg)
+  ![git commit 11](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_11.jpg)
 
-  ![git commit 12](https://krispediadot.github.io/assets/images/git_commit_12.jpg)
+  ![git commit 12](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_12.jpg)
 
   commit 이 완료되었습니다!!<br>
 
   git log로 확인해봅시다.
 
-  ![git commit 13](https://krispediadot.github.io/assets/images/git_commit_13.jpg)
+  ![git commit 13](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/git/2020-02-08-git-commit/git_commit_13.jpg)
 
   이상으로 git add 한 파일 목록들을 commit 하는 방법에 대해 알아보았습니다. <br>
