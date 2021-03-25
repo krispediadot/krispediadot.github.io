@@ -9,7 +9,7 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
-### apt install 명령어 오류 해결
+### 1. 오류 내용
 
 ```
 sudo apt install ~~
@@ -21,8 +21,7 @@ sudo apt install ~~
 `E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?`  
 
 
-해결 방법은 다음과 같다.  
-
+### 2. 해결 방법
 ```
 sudo killall apt apt-get
 sudo rm /var/lib/apt/lists/lock 
