@@ -1,6 +1,6 @@
 ## 
 
-git pages based on [kelisé theme](https://github.com/piharpi/jekyll-klise)
+git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 
 ---
 
@@ -14,7 +14,6 @@ git pages based on [kelisé theme](https://github.com/piharpi/jekyll-klise)
 - [ ] 포스트 리스트 --> icon title(왼쪽정렬) ~ tag 날짜(오른쪽 정렬)  
 - [ ] tag별 배경 색 지정
 - [ ] 포스트 커버 이미지 추가
-- [ ] arhive 시간순이 아닌 인덱스 정렬
 - [ ] search 동작하도록
 - [ ] archive search 제거
 - [x] about 내용 변경
@@ -23,3 +22,4 @@ git pages based on [kelisé theme](https://github.com/piharpi/jekyll-klise)
 - [x] 커스텀 url 설정
 - [ ] > 글자 왼쪽 정렬 
 - [x] 다크모드 focus 생상 변경(red -> yellow)
+- [x] index 클릭 시 index의 제목이 보이도록 화면 시작점 변경
