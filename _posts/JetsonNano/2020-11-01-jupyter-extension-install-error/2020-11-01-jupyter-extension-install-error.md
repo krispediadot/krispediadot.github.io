@@ -9,8 +9,7 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
-### jupyter extension 설치 오류 해결 방법
-
+### 1. 오류 내용
 ```
 sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```
@@ -19,8 +18,7 @@ sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 `UnicodeDecodeError: 'ascii' codec can't decode byte 0xf0 in position 23: ordinal not in range(128)`
 
-- 해결 방법  
-
+### 2. 해결 방법  
 ```
 npm config set unicode false
 ```
