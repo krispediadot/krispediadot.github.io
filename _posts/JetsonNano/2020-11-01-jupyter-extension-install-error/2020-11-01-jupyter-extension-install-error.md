@@ -19,7 +19,7 @@ sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
 
 `UnicodeDecodeError: 'ascii' codec can't decode byte 0xf0 in position 23: ordinal not in range(128)`
 
-해결 방법  
+- 해결 방법  
 
 ```
 npm config set unicode false
