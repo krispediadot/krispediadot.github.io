@@ -206,10 +206,7 @@ h6 {
   & + ol {
     margin-top: 10px;
   }
-
-  @include media-query($on-mobile) {
-    scroll-margin-top: 65px;
-  }
+  scroll-margin-top: 65px;
 }
 
 // Headings with link
