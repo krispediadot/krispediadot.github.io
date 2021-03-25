@@ -9,6 +9,8 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
+### apt install 명령어 오류 해결
+
 ```
 sudo apt install ~~
 ```
