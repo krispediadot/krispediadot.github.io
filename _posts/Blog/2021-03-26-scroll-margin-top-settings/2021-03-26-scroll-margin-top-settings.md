@@ -4,7 +4,7 @@ title: Jekyll | CSS scroll-margin-top 설정
 date: 2021-03-26 3:00:00 +09:00
 modified: 
 category: blog
-tags: [jekyll]
+tags: [jekyll, css]
 image: "/assets/img/jekyll_logo.png"
 cover: "../puzzle.jpg"
 ---
