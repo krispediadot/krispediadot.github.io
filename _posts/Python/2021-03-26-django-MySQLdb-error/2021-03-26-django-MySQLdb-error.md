@@ -30,7 +30,7 @@ except ImportError as err:
   ) from err
 ```
 <br>
-**변경 전**<br>
+**변경 후**<br>
 ```python
 try:
   import pymysql as Database
