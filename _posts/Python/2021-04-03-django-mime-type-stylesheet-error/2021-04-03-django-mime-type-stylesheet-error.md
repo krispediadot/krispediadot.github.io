@@ -4,7 +4,7 @@ title: Django | Refused to apply style from '<URL>' because its MIME type
 date: 2021-04-03 14:00:00 +09:00
 modified: 
 category: python
-tags: []
+tags: [django]
 image: "/assets/img/python_logo.png"
 cover: ""
 ---
