@@ -18,3 +18,8 @@ cover: ""
 <!-- A / B -->
 { % widthratio A B 1 % }
 ```
+
+
+---
+**참고자료**<br>
+- [https://stackoverflow.com/questions/8447913/is-there-a-filter-for-divide-for-django-template](https://stackoverflow.com/questions/8447913/is-there-a-filter-for-divide-for-django-template)
