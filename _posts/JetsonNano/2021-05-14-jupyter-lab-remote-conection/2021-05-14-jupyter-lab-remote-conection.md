@@ -9,21 +9,32 @@ image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---
 
-### 1. 설정 파일 생성
+### 1. ssh 포트 확인 및 열기
+---
+
+```
+vim /etc/ssh/sshd_config
+```
+
+```
+Port 8888 #추가
+```
+
+### 2. 설정 파일 생성
 ---
 
 ```
 jupyter-lab --generate-config
 ```
 
-### 2. 설정 파일 확인
+### 3. 설정 파일 확인
 ---
 
 ```
 vim /root/.jupyter/jupyter_lab_config.py
 ```
 
-### 3. 설정 파일 수정
+### 4. 설정 파일 수정
 ---
 
 ```python
