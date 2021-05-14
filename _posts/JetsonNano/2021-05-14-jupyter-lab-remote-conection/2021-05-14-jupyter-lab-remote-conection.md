@@ -20,6 +20,11 @@ vim /etc/ssh/sshd_config
 Port 8888 #추가
 ```
 
+```
+# 재시작
+systemctl restart ssh.service
+```
+
 ### 2. 설정 파일 생성
 ---
 
