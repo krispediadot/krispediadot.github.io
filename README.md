@@ -23,3 +23,4 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 - [ ] > 글자 왼쪽 정렬 
 - [x] 다크모드 focus 생상 변경(red -> yellow)
 - [x] index 클릭 시 index의 제목이 보이도록 화면 시작점 변경
+- [ ] categories 인덱스 알파벳 순 오름차순 정렬
