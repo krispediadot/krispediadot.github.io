@@ -14,9 +14,9 @@
   url: /about/
   external: false # set true if you using external link, see below
 
-- title: 🔍
-  url: /search/
-  external: false
+# - title: 🔍
+#   url: /search/
+#   external: false
   
 # Example:
 # - title: github
