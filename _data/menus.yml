@@ -2,8 +2,8 @@
   url: /
   external: false
 
-- title: category
-  url: /category/
+- title: blog
+  url: /blog/
   external: false
 
 - title: about
