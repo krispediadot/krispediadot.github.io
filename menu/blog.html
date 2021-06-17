@@ -6,15 +6,17 @@ excerpt: All post.
 comments: false
 ---
 
-<div class="archive-tags">
-  <a class="tag-item" href="#">all</a>
-  {%- for category in site.categories -%} 
+{% assign b_categories = site.categories | sort %}
+
+<div class="blog-contents">
+  
+  {%- for category in b_categories -%} 
     {% capture name %}{{ category | first }}{% endcapture %}
-    <a class="tag-item" href="#{{name}}">{{ name }}</a> 
+    <a class="item" href="#{{name}}">{{ name }}</a><br>
   {%- endfor -%}
 </div>
 
-{%- for category in site.categories -%}
+{%- for category in b_categories -%}
   {%- capture name -%}{{ category | first }}{%- endcapture -%}
   <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.categories[name] -%}
