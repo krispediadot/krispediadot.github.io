@@ -6,12 +6,20 @@
   url: /category/
   external: false
 
-- title: archive
-  url: /archive/
-  external: false
-
 - title: about
   url: /about/
+  external: false
+
+- title: portfolio
+  url: /portfolio/
+  external: false
+
+# - title: archive
+#   url: /archive/
+#   external: false
+
+- title: contact
+  url: /contact/
   external: false # set true if you using external link, see below
 
 # - title: 🔍
