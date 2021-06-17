@@ -39,6 +39,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ---
 **참고 자료**<br>
-[1] [https://shryu8902.github.io/_posts/2018-06-22-jekyll-on-windows/](https://shryu8902.github.io/_posts/2018-06-22-jekyll-on-windows/) <br>
-[2] [https://jennysgap.tistory.com/entry/Github-Pages-04-%ED%83%80%EC%9E%84%EC%A1%B4-%EA%B4%80%EB%A6%AC](https://jennysgap.tistory.com/entry/Github-Pages-04-%ED%83%80%EC%9E%84%EC%A1%B4-%EA%B4%80%EB%A6%AC) <br>
-[3] [https://jekyllrb.com/docs/installation/windows/](https://jekyllrb.com/docs/installation/windows/) <br>
+[1](https://shryu8902.github.io/_posts/2018-06-22-jekyll-on-windows/) <br>
+[2](https://jennysgap.tistory.com/entry/Github-Pages-04-%ED%83%80%EC%9E%84%EC%A1%B4-%EA%B4%80%EB%A6%AC) <br>
+[3](https://jekyllrb.com/docs/installation/windows/) <br>
