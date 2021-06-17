@@ -9,11 +9,13 @@ comments: false
 {% assign b_categories = site.categories | sort %}
 
 <div class="blog-contents">
-  
+  <h1>Contents</h1>
+  <hr size=5px color="black">
   {%- for category in b_categories -%} 
     {% capture name %}{{ category | first }}{% endcapture %}
-    <a class="item" href="#{{name}}">{{ name }}</a><br>
+    * <a class="item" href="#{{name}}">{{ name | upcase }}</a><br>
   {%- endfor -%}
+  <hr size=5px color="black">
 </div>
 
 {%- for category in b_categories -%}
