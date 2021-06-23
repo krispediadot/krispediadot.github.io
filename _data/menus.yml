@@ -6,12 +6,12 @@
   url: /blog/
   external: false
 
-- title: about
-  url: /about/
+- title: projects
+  url: /projects/
   external: false
 
-- title: portfolio
-  url: /portfolio/
+- title: about
+  url: /about/
   external: false
 
 # - title: archive
