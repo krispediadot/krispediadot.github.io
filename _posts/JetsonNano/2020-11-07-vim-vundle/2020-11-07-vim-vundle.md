@@ -105,5 +105,5 @@ augroup END
 ---
 ```
 vim
-:PlubinInstall
+:PluginInstall
 ```
