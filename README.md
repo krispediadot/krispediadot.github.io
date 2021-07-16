@@ -24,5 +24,5 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 - [x] 다크모드 focus 생상 변경(red -> yellow)
 - [x] index 클릭 시 index의 제목이 보이도록 화면 시작점 변경
 - [x] /blog/ categories 인덱스 알파벳 순 오름차순 정렬
-- [ ] menu 모바일 모드에서 리스트 보이지 않도록 수정
+- [x] menu 모바일 모드에서 리스트 보이지 않도록 수정
 - [x] /blog/ 에서 categories 별 인덱스 리스트 만들어 보여주기
