@@ -6,5 +6,19 @@ excerpt:
 comments: false
 ---
 
-**Email**: {{ site.author.email }}<br>
-**Github**: [https://github.com/krispediadot](https://github.com/krispediadot)
+<div class="contact">
+  <img
+    class="contact-avatar"
+    src="/assets/img/main.png"
+    alt="{{ site.author.username }}"
+  />
+  <h2 class="contact-bio">{{ site.author.email }}</h2>
+</div>
+<div class="contact">
+  <img
+    class="contact-avatar"
+    src="/assets/img/github.png"
+    alt="{{ site.author.username }}"
+  />
+  <h2 class="contact-bio"><a href = "https://github.com/krispediadot">krispediadot</a></h2>
+</div>
