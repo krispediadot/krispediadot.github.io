@@ -1,0 +1,41 @@
+- title: Cryptocurrency Information Service
+  period: ~ 2021.05
+  tech_stack: Python, Django, MySql
+  description:
+  url:
+
+- title: Tracking Cryptocurrency Transactions
+  period: 2020.03 ~ 2020.06, Whitescan.inc
+  tech_stack: Python, Selenium, MongoDB
+  description:
+  url:
+
+- title: Develop Data API
+  period: 2020.03 ~ 2020.04, Whitescan.inc
+  tech_stack: Python, Django
+  description: 
+  url:
+
+- title: Correlation Analysis between Black market and International Cybersecurity Community
+  period: 2020.01 ~ 2020.02, Whitescan.inc
+  tech_stack: Python, Selenium, MongoDB
+  description: 
+  url: 
+
+- title: Recommendation System for Taxi Drivers
+  period: 2019.10 ~ 2019.12, Whitescan.inc
+  tech_stack: Python, Tensorflow, Scikit-learn
+  description: Waiting area recommendation system based on taxi driver's log and mobile carrier log 
+  url:
+
+- title: Automatic Contents Rating System
+  period: 2019.07 ~ 2019.08
+  tech_stack: Python 3.6.8, Tensorflow 1.13.1
+  description: DDDM(Data Driven Decision Making) contents rating system
+  url: https://github.com/krispediadot/.999
+
+- title: Fish Species Classification
+  period: 2018.10 ~ 2019.02
+  tech_stack: Python 3.6.8, Tensorflow 1.13.1
+  description: Fish detection and classification using Mask R-CNN 
+  url: https://github.com/pknu-wap/UnderTheSea
