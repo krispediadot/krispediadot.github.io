@@ -235,7 +235,7 @@ a {
   }
 
   &:focus {
-    outline: 3px solid rgba(0, 54, 199, 0.6);
+    outline: 3px solid #666;
     outline-offset: 2px;
   }
 }
@@ -347,19 +347,19 @@ table {
 
 // When mouse block a text set this color
 ::selection {
-  background: #fffba0;
+  background: #e9c44f;
   color: $black;
 }
 
 // mark - 색상 변경 설정해야함.
 mark {
-  background: #fffba0;
+  background: #e9c44f;
   color: $black;
   .yellow {
-    background: #fffba0;
+    background: #e9c44f;
   }
   .blue {
-    background: #bdffff;
+    background: #4FC1E9;
   }
   .green {
     background: #dfffd2;
