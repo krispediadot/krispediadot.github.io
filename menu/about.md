@@ -1,6 +1,6 @@
 ---
 title: Hello 👋
-permalink: /about/
+permalink: 
 layout: page
 excerpt: 
 comments: false
