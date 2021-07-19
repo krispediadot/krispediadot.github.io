@@ -5,15 +5,17 @@ layout: page
 excerpt: Sorted article by tags.
 ---
 
+{% assign b_tags = site.tags | sort %}
+
 <div class="archive-tags">
   <a class="tag-item" href="#">all</a>
-  {%- for tag in site.tags -%} 
+  {%- for tag in b_tags -%} 
     {% capture name %}{{ tag | first }}{% endcapture %}
     <a class="tag-item" href="#{{name}}">{{ name }}</a> 
   {%- endfor -%}
 </div>
 
-{%- for tag in site.tags -%}
+{%- for tag in b_tags -%}
   {%- capture name -%}{{ tag | first }}{%- endcapture -%}
   <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.tags[name] -%}

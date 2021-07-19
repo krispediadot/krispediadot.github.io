@@ -389,6 +389,8 @@
     letter-spacing: 0.5px;
 
     .tag {
+      padding: 1px 3px;
+      border-radius: 2px;
       background-color: #4FC1E9;
       color: black;
       font-weight: $bold-weight;
@@ -521,8 +523,12 @@
   .tag-item {
     padding: 1px 3px;
     border-radius: 2px;
-    border: 1px solid rgba(128, 128, 128, 0.1);
-    background-color: rgba(128, 128, 128, 0.1);
+    // border: 1px solid #F5F7FA;
+    background-color: #4FC1E9;
+    color: black;
+    // font-weight: $bold-weight;
+    // font-size: $small-font-size - 2;
+
   }
 }
 
