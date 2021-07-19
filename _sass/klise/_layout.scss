@@ -411,13 +411,14 @@
   }
 
   .post-item-date {
+    margin-top: 3px;
     margin-left: 12px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: normal;
     letter-spacing: 0.1px;
 
     @include media-query($on-mobile) {
-      font-size: 15px;
+      font-size: 13px;
     }
   }
 }
