@@ -13,7 +13,7 @@ comments: false
   <hr size=5px color="black">
   {%- for category in b_categories -%} 
     {% capture name %}{{ category | first }}{% endcapture %}
-    * <a class="item" href="#{{name}}">{{ name | upcase }}</a><br>
+    . <a class="item" href="#{{name}}">{{ name | upcase }}</a><br>
   {%- endfor -%}
   <hr size=5px color="black">
 </div>
@@ -41,7 +41,6 @@ comments: false
         </span>
       </div>
       {% endif %}
-      <span class="post-item-tag"></span>
       <span class="post-item-date">{{ post.date | date: "%Y/%m/%d" }}</span> 
     </article>
   {%- endfor -%}

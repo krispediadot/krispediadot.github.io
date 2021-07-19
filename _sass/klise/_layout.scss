@@ -367,6 +367,10 @@
   }
 
   .post-item-title {
+    width: 400px; /* 가로 길이 고정*/ 
+    text-overflow: ellipsis; /* 생략 처리 ( ... )*/ 
+    white-space: nowrap; /* 줄바꿈 하지 않고 잘림*/ 
+    overflow: hidden; /* 스크롤 처리 하지 않음*/
     margin: 0;
     border: 0;
     padding: 0;
@@ -385,8 +389,12 @@
   }
 
   .post-item-tag {
-    margin-left: 3px;
+    margin-left: 10px;
     letter-spacing: 0.5px;
+    width: 150px; /* 가로 길이 고정*/ 
+    text-overflow: ellipsis; /* 생략 처리 ( ... )*/ 
+    white-space: nowrap; /* 줄바꿈 하지 않고 잘림*/ 
+    overflow: hidden; /* 스크롤 처리 하지 않음*/
 
     .tag {
       padding: 1px 3px;
@@ -403,6 +411,7 @@
   }
 
   .post-item-date {
+    margin-left: 12px;
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 0.1px;
