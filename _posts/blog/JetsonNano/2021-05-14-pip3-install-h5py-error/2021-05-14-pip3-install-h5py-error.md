@@ -4,7 +4,7 @@ title: Jetson Nano | pip3 install h5py 설치 오류
 date: 2021-05-14 16:00:00 +09:00
 modified: 
 category: jetson nano
-tags: []
+tags: [pip]
 image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
 ---

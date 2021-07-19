@@ -4,7 +4,7 @@ title: Python | UnboundLocalError
 date: 2021-03-29 23:00:00 +09:00
 modified: 
 category: python
-tags: []
+tags: [scope]
 image: "/assets/img/python_logo.png"
 cover: ""
 ---
