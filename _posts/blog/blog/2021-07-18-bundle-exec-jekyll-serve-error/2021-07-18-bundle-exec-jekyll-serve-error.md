@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll | windows jekyll tzinfo 오류
+title: Jekyll | bundle exec jekyll serve webrick (LoadError)
 date: 2021-07-18 13:00:00 +09:00
 modified: 
 category: blog
