@@ -26,3 +26,4 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 - [x] /blog/ categories 인덱스 알파벳 순 오름차순 정렬
 - [x] menu 모바일 모드에서 리스트 보이지 않도록 수정
 - [x] /blog/ 에서 categories 별 인덱스 리스트 만들어 보여주기
+- [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
