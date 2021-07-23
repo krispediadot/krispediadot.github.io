@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jupyter | UsageError: ~~ '%memit` not found.
+title: jupyter | UsageError ~~ '%memit` not found.
 date: 2021-07-23 13:00:00 +09:00
 modified: 
 category: python
