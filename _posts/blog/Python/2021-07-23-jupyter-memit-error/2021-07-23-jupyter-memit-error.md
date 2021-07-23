@@ -4,12 +4,15 @@ title: jupyter | UsageError: ~~ '%memit` not found.
 date: 2021-07-23 13:00:00 +09:00
 modified: 
 category: python
-tags: [djan]
+tags: [profiler]
 image: "/assets/img/python_logo.png"
 cover: ""
 ---
 
 ### 1. 오류 내용
+
+파이썬 코드를 프로파일링 하기 위해서 `%memit`을 사용하려다가 오류가 발생했다.<br>
+
 ```bash
 UsageError: Line magic function `%memit` not found.
 ```
