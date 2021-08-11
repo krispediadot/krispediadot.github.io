@@ -6,4 +6,83 @@
   />
   <h2 class="author-name">{{ site.author.name }}</h2>
   <p class="author-bio">{{ site.author.bio }}</p>
+  <div class="current">
+  <canvas id="canvas" height="50"></canvas>
+  </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.7.0"></script>
+<script>
+
+  new Chart(document.getElementById("canvas"), {
+      type: 'horizontalBar',
+      data: {
+          labels: ['CURRENT'],
+          datasets: [{
+              label: 'Algorithms',
+              data: [30],
+              borderColor: "rgba(209, 216, 224, 1)",
+              backgroundColor: "rgba(209, 216, 224, 0.5)",
+          },
+          {
+              label: 'Machine Learning',
+              data: [40],
+              borderColor: "rgba(75, 101, 132, 1)",
+              backgroundColor: "rgba(75, 101, 132, 0.5)",
+          },
+          {
+              label: 'Medical Data',
+              data: [20],
+              borderColor: "rgba(209, 216, 224, 1)",
+              backgroundColor: "rgba(209, 216, 224, 0.5)",
+          },
+          {
+              label: 'Etc',
+              data: [10],
+              borderColor: "rgba(75, 101, 132, 1)",
+              backgroundColor: "rgba(75, 101, 132, 0.5)",
+          }]
+      },
+      options: {
+        title: { display: false,
+                text: 'In My Mind'
+        },
+        responsive: true,
+        tooltips: {
+          enabled: false
+        },
+        hover: {
+          mode: 'nearest',
+          intersect: true
+        },
+        legend: {
+          display: true
+        },
+        scales: {
+            xAxes: [{
+                display: false,
+                stacked: true,
+                barThickness: 6
+            }],
+            yAxes: [{
+                display: false,
+                stacked: true,
+                barThickness: 30
+            }]
+        },
+        plugins: {
+          datalabels: {
+            color: 'black',
+            font: {
+              weight: 'bold'
+            },
+            formatter: function(value, context) {
+              return Math.round(value) + '%';
+            }
+          }
+        }
+      }
+  });
+  
+</script>
