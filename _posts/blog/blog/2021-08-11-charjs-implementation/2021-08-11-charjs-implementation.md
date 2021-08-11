@@ -18,11 +18,11 @@ cover: "../puzzle.jpg"
 
 아래 그림에서의 빨간 부분을 추가하려 계획했고<br>
 
-![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/blog/2021-08-11-charjs-implementation/plan.jpg)<br>
+![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/blog/2021-08-11-charjs-implementation/plan.png)<br>
 
 실제 추가한 모습은 아래와 같다.<br>
 
-![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/blog/2021-08-11-charjs-implementation/result.jpg)
+![](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/blog/2021-08-11-charjs-implementation/result.png)
 
 ### 3. 추가 방법
 
