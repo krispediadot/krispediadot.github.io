@@ -5,7 +5,7 @@ date: 2021-07-15 23:00:00 +09:00
 modified: 
 category: errors
 tags: [c++]
-image: "/assets/img/avatar_code.png"
+image: "/assets/img/cpp_logo.jpeg"
 cover: "../puzzle.jpg"
 ---
 
