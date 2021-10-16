@@ -4,7 +4,7 @@ title: DBeaver | MySQLdb 오류
 date: 2021-03-27 01:45:00 +09:00
 modified: 
 category: errors
-tags: [MySQL]
+tags: [mysql]
 image: "/assets/img/mysql_logo.png"
 cover: ""
 ---
