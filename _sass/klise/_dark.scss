@@ -29,7 +29,8 @@ body[data-theme="dark"] {
   // Post
   .page-content {
     a {
-      color: $dark-text-link-blue;
+      // color: $dark-text-link-blue;
+      color: $dark-text-base-color;
 
       &:hover,
       &:active,
