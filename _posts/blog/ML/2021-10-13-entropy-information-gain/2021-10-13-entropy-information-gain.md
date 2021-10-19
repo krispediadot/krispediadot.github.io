@@ -88,15 +88,14 @@ IG = entropy(parent node) - entropy(parent node, child node)이다.<br>
 
 ### information gain ration
 
-information gain의 한계점을 보완한 값이다.<br>
-
-information gain의 한계점은 4가지가 있다.<br>
+information gain을 사용하는 ID3 알고리즘의 한계점은 4가지가 있다.<br>
 1. 잘게 나뉘어져 전체 불순도가 높아지는 경우가 있다는 점
 1. 연속값에는 사용할 수 없다는 점
 1. 결측치가 있는 경우 적용할 수 없다는 점
 1. 과적합되기 쉽다는 점
 
-이러한 점을 보완해서 decision tree를 생성하는 ID4.5 알고리즘이 나오게 되었다.<br>
+이러한 점을 보완해서 decision tree를 생성하는 C4.5 알고리즘이 나오게 되었고<br>
+information gain ratio는 C4.5 알고리즘에서 사용된다.<br>
 
 information gain ration의 수식은<br>
 IGR = information gain(IG) / intrinsic vlaue(IV)<br>
