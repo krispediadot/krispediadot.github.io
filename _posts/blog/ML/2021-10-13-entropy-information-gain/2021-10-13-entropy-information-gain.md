@@ -102,3 +102,11 @@ IGR = information gain(IG) / intrinsic vlaue(IV)<br>
 IV = entropy(child node)<br>
 
 잘게 나뉘어지는 경우에 가중치를 부여해 한계를 보완했다.<br>
+
+
+----
+**참고자료**:<br>
+[https://namu.wiki/w/%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC](https://namu.wiki/w/%EC%97%94%ED%8A%B8%EB%A1%9C%ED%94%BC)<br>
+[https://homes.cs.washington.edu/~shapiro/EE596/notes/InfoGain.pdf](https://homes.cs.washington.edu/~shapiro/EE596/notes/InfoGain.pdf)<br>
+[https://tyami.github.io/machine%20learning/decision-tree-3-c4_5/](https://tyami.github.io/machine%20learning/decision-tree-3-c4_5/)<br>
+[https://angeloyeo.github.io/2020/10/27/KL_divergence.html](https://angeloyeo.github.io/2020/10/27/KL_divergence.html)
