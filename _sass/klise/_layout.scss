@@ -535,8 +535,8 @@
 
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
   text-align: center;
 
   @include media-query($on-mobile) {
@@ -544,8 +544,8 @@
   }
 
   .author-avatar {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -557,14 +557,15 @@
   }
 
   .author-name {
-    font-size: 1.7em;
+    font-size: 2.4em;
     margin-bottom: 2px;
   }
 
   .author-bio {
+    font-size: 1.3em;
     margin: 0 auto;
     opacity: 0.9;
-    max-width: 393px;
+    max-width: 700px;
     line-height: 1.688;
   }
 
@@ -576,6 +577,8 @@
   }
 
   .title{
+    text-align: left;
+    margin-top: 2em;
     font-size: 3em;
   }
 }
