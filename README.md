@@ -27,3 +27,6 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 - [x] menu 모바일 모드에서 리스트 보이지 않도록 수정
 - [x] /blog/ 에서 categories 별 인덱스 리스트 만들어 보여주기
 - [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
+- [ ] post 너비 늘리기
+- [ ] sidebar trigger 연결하기
+- [ ] CS, ML/DL 카테고리 페이지 생성하기
