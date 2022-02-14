@@ -6,20 +6,21 @@ excerpt: All post.
 comments: false
 ---
 
-{% assign b_categories = site.categories | sort %}
+<!-- {% assign b_categories = site.categories | sort %} -->
+{% assign b_categories = "blog, cpp, errors, git, javascript, jetson nano, python, project" | split: ", "  %}
 
 <div class="blog-contents">
   <h1>Contents</h1>
   <hr size=5px color="black">
   {%- for category in b_categories -%} 
-    {% capture name %}{{ category | first }}{% endcapture %}
+    {% capture name %}{{ category }}{% endcapture %}
     . <a class="item" href="#{{name}}">{{ name | upcase }}</a><br>
   {%- endfor -%}
   <hr size=5px color="black">
 </div>
 
 {%- for category in b_categories -%}
-  {%- capture name -%}{{ category | first }}{%- endcapture -%}
+  {%- capture name -%}{{ category }}{%- endcapture -%}
   <h2 id="{{ name }}">{{ name | upcase }}</h2>
   {%- for post in site.categories[name] -%}
     <article class="post-item" id="results-container">
