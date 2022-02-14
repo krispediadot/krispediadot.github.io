@@ -4,10 +4,11 @@ home: true
 ---
 
 
+<!-- <h1>Welcom.</h1>
+<img src = "../assets/img/intro.gif" />  -->
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-<h2>🛠🛠🛠 블로그 정비중 🛠🛠🛠</h2>
-<!-- {%- for post in site.posts limit: site.number_of_posts -%}
+<h2 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h2>
+{%- for post in site.posts limit: 13 -%}
 <article class="post-item">
   <img
     class="post-item-image"
@@ -29,4 +30,4 @@ home: true
   {% endif %}
   <span class="post-item-date">{{ post.date | date: "%Y/%m/%d" }}</span>
 </article>
-{%- endfor -%} -->
+{%- endfor -%}
