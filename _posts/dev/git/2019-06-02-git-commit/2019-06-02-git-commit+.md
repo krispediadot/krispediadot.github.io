@@ -19,23 +19,23 @@ cover:
 
 add만 되어있는 상태 
 
-![git+ commit 1](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_1.jpg)
+![git+ commit 1](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_1.jpg?raw=true)
 <br>
-![git+ commit 2](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_2.jpg)
+![git+ commit 2](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_2.jpg?raw=true)
 <br><br>
 **[commit 하기 전]**
 <br><br>
-![git+ commit 3](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_3.jpg)
+![git+ commit 3](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_3.jpg?raw=true)
 <br>
-![git+ commit 4](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_4.jpg)
+![git+ commit 4](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_4.jpg?raw=true)
 <br><br>
 b3, f8 폴더와 해쉬값이 생성됩니다. <br>
 <br>
 git log로 확인해보면 
 <br>
-![git+ commit 5](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_5.jpg)
+![git+ commit 5](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_5.jpg?raw=true)
 <br>
-![git+ commit 6](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_6.jpg)
+![git+ commit 6](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_6.jpg?raw=true)
 <br><br>
 commit한 내용의 해쉬가 b3f4b1656--- 인것을 알 수 있습니다. <br>
 <br>
@@ -46,10 +46,10 @@ b3 폴더가 커밋한 내용을 담고있는 해쉬 값을 저장하고 있다�
 - **.git 폴더 내부 COMMIT_EDITMSG**<br>
 objects 폴더의 변화와 함께 commit_deitmsg 파일이 생성됩니다. 
 <br><br>
-![git+ commit 7](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_7.jpg)
+![git+ commit 7](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_7.jpg?raw=true)
 <br><br>
 파일에는 commit시 작성했던 commit message가 저장되어 있습니다. 
 <br><br>
-![git+ commit 8](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_8.jpg)
+![git+ commit 8](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_8.jpg?raw=true)
 <br>
-![git+ commit 9](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/git/2019-06-02-git-commit/git+_commit_9.jpg)
+![git+ commit 9](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-commit/git+_commit_9.jpg?raw=true)
