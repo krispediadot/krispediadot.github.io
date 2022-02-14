@@ -14,12 +14,12 @@ cover: "../puzzle.jpg"
 포스팅 할때 index를 사용해서 특정 header로 바로 이동할 수 있도록 설정 했으나<br>
 이동하면 header의 제목이 navigation bar에 가려서 보이지 않았다.<br>
 
-![scroll_margin_top_before](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/Blog/2021-03-26-scroll-margin-top-settings/scroll_margin_top_before.gif)
+![scroll_margin_top_before](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/blog/2021-03-26-scroll-margin-top-settings/scroll_margin_top_before.gif?raw=true)
 
 원하는 위치에는 가지만 뭔가 아쉬운 느낌🤔<br>
 
 ### 2. 설정 후
-![scroll_margin_top_after](https://raw.githubusercontent.com/krispediadot/krispediadot.github.io/master/_posts/blog/Blog/2021-03-26-scroll-margin-top-settings/scroll_margin_top_after.gif)
+![scroll_margin_top_after](https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/blog/2021-03-26-scroll-margin-top-settings/scroll_margin_top_after.gif?raw=true)
 
 ### 3. 설정 방법
 1. **headings의 css가 설정 되어 있는 위치 찾기**<br>
