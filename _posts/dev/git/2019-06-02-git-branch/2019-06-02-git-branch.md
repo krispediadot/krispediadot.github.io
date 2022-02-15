@@ -125,7 +125,7 @@ hotfix2 라는 이름의 branch를 새로 만들고 이동해 봅시다.
 
 ### git branch -d <삭제 할 branch 이름> / git branch -D <삭제 할 branch 이름>
 branch 를 삭제할 때 사용됩니다. <br>
-horfix2 branch 를 삭제해 봅시다.
+hotfix2 branch 를 삭제해 봅시다.
 <figure>
 <img src="https://github.com/krispediadot/krispediadot.github.io/blob/master/_posts/dev/git/2019-06-02-git-branch/git_branch_19.png?raw=true">
 </figure>
