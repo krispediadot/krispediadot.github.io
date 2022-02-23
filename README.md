@@ -29,4 +29,5 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 - [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
 - [ ] post 너비 늘리기
 - [ ] sidebar trigger 연결하기
-- [ ] CS, ML/DL 카테고리 페이지 생성하기
+- [x] CS, ML/DL 카테고리 페이지 생성하기
+- [x] comments 연결
