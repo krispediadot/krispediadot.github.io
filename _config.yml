@@ -1,5 +1,5 @@
 # Site settings
-title: 🌱 # site title
+title: Sujin's Dev Blog # site title
 description: >- # site description
   
 lang: en-US # default lang
@@ -88,3 +88,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  - jekyll-toc
