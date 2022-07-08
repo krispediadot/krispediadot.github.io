@@ -347,22 +347,22 @@ table {
 
 // When mouse block a text set this color
 ::selection {
-  background: #e9c44f;
+  background: #6b7886;
   color: $black;
 }
 
 // mark - 색상 변경 설정해야함.
 mark {
-  background: #e9c44f;
+  background: #f8df81;
   color: $black;
   .yellow {
-    background: #e9c44f;
+    background: #f8df81;
   }
   .blue {
-    background: #4FC1E9;
+    background: #badfda;
   }
   .green {
-    background: #dfffd2;
+    background: #9bd0b7;
   }
   .gray {
     background: #666;
