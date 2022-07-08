@@ -261,4 +261,10 @@ body[data-theme="dark"] {
       }
     }
   }
+
+  .archive-tags {
+    .tag-item {
+      color: $dark-black;
+    }
+  }
 }
