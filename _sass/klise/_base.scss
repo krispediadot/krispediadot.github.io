@@ -254,10 +254,10 @@ em {
 blockquote {
   color: $gray;
   font-style: italic;
-  text-align: center;
+  text-align: left;
   opacity: 0.9;
-  border-top: 1px solid $light;
-  border-bottom: 1px solid $light;
+  border-top: 1px solid $gray;
+  border-bottom: 1px solid $gray;
   padding: 10px;
   margin-left: 10px;
   margin-right: 10px;

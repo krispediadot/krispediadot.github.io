@@ -40,7 +40,7 @@ body[data-theme="dark"] {
     }
 
     h3 {
-      border-color: $dark-light;
+      border-color: $smoke;
     }
     h1,
     h2,
@@ -266,5 +266,10 @@ body[data-theme="dark"] {
     .tag-item {
       color: $dark-black;
     }
+  }
+
+  blockquote {
+    border-top: 1px solid $smoke;
+    border-bottom: 1px solid $smoke;
   }
 }
