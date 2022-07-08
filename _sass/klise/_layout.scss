@@ -454,7 +454,7 @@
   }
 
   .post-item-title {
-    width: 400px; /* 가로 길이 고정*/ 
+    width: 550px; /* 가로 길이 고정*/ 
     text-overflow: ellipsis; /* 생략 처리 ( ... )*/ 
     white-space: nowrap; /* 줄바꿈 하지 않고 잘림*/ 
     overflow: hidden; /* 스크롤 처리 하지 않음*/
@@ -476,9 +476,10 @@
   }
 
   .post-item-tag {
+    padding-left: 5px;
     margin-left: 10px;
     letter-spacing: 0.5px;
-    width: 150px; /* 가로 길이 고정*/ 
+    width: 250px; /* 가로 길이 고정*/ 
     text-overflow: ellipsis; /* 생략 처리 ( ... )*/ 
     white-space: nowrap; /* 줄바꿈 하지 않고 잘림*/ 
     overflow: hidden; /* 스크롤 처리 하지 않음*/
@@ -499,7 +500,7 @@
 
   .post-item-date {
     margin-top: 3px;
-    margin-left: 12px;
+    margin-left: 10px;
     font-size: 13px;
     font-weight: normal;
     letter-spacing: 0.1px;
@@ -625,7 +626,6 @@
     color: black;
     font-weight: $bold-weight;
     // font-size: $small-font-size - 2;
-
   }
 }
 
