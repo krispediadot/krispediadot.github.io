@@ -297,7 +297,7 @@
   top: 30vh;
   position: fixed;
   left: 80vw;
-  width: 300px;
+  width: 250px;
   color: $dark-gray;
   overflow-y: auto;
   overflow-x: hidden;
@@ -460,7 +460,7 @@
     overflow: hidden; /* 스크롤 처리 하지 않음*/
     margin: 0;
     border: 0;
-    padding: 0;
+    padding: 0 0 0 5px;
     font-size: $base-font-size;
     font-weight: 700;
     letter-spacing: 0.1px;
