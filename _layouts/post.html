@@ -31,12 +31,18 @@ layout: compress
   <!-- {% include navbar.html %} -->
   {% include titlebar.html %}
   {% include sidebar.html %}
+  <div class="toc" id="toc">
+    {% include toc.html html=content %}
+  </div>
+
   <div class="wrapper post">
     <main class="page-content" aria-label="Content">
       <article itemscope itemtype="https://schema.org/BlogPosting">
         <header class="header">
           <img class="image" src={{page.image}} />
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
+
+          <!-- tags -->
           {% if page.tags and page.tags != empty %}
           <div class="tags">
             {% assign tags = page.tags %}
@@ -48,11 +54,15 @@ layout: compress
             </span>
           </div>
           {% endif %}
+
+          <!-- date -->
           {% if page.date %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%Y/%m/%d" }}
             </time>
+
+            <!-- author -->
             <img class="author-img" src="{{ site.author.avatar }}" />
             <a itemprop="author-name" href="/about">{{ site.author.name }}</span>
           </div>
@@ -61,11 +71,6 @@ layout: compress
 
         <div class="page-content" itemprop="articleBody">
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
-          {% if page.tweet %}
-          <p>Comments this article on 
-            <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
-          </p>
-          {% endif %}
         </div>
       </article>
     
@@ -73,9 +78,9 @@ layout: compress
 
     </main>
 
-    {% if page.modified %}
+    <!-- {% if page.modified %}
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
-    {% endif %}
+    {% endif %} -->
     {% if page.next or page.previous %}
       {% include navigation.html %}
     {% endif %}
@@ -83,5 +88,37 @@ layout: compress
     {% include footer.html %}
   </div>
 </body>
-
 </html>
+
+<!-- toc contents generator -->
+<script>
+  function getTOCNodes(master) {
+    var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
+    var tocNodes = nodes.filter(function(elem) {
+        return elem.tagName == "A";
+    });
+    return tocNodes;
+  }
+  function getHeaderNodes(master) {
+    var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
+    var headerNodes = nodes.filter(function(elem) {
+        return elem.tagName == "H1" || elem.tagName == "H2" || elem.tagName == "H3" || elem.tagName == "H4" || elem.tagName == "H5" || elem.tagName == "H6";
+    });
+    return headerNodes;
+  }
+
+  var title = document.getElementsByClassName("post-title")[0];
+  var titleY = window.pageYOffset + title.getBoundingClientRect().top;
+  
+  var article = document.getElementsByClassName("post-article")[0];
+  var articleY = window.pageYOffset + article.getBoundingClientRect().top;
+
+  var toc = document.getElementsByClassName("toc")[0];
+
+  var headerNodes = getHeaderNodes(article);
+  var tocNodes = getTOCNodes(toc);
+
+  var before = undefined;
+
+  
+</script>
