@@ -5,7 +5,7 @@ date: 2021-02-18 19:00:00 +09:00
 modified: 
 category: problem solving
 tags: [ps, c++]
-image: "/assets/img/avatar_code.png"
+image: "/assets/img/problem_solving_logo.png"
 cover: "../puzzle.jpg"
 ---
 
