@@ -6,11 +6,11 @@ excerpt: All post.
 comments: false
 ---
 
-{% assign b_categories = "review, essay" | split: ", "  %}
+{% assign b_categories = "essay, review" | split: ", "  %}
 
 
-<div class="blog-contents">
-  <h1>Contents</h1>
+<div class="blog-categories">
+  <h1>Categories</h1>
   <hr size=5px color="black">
   {%- for category in b_categories -%} 
     {%- if site.categories[category].size > 0 -%} 

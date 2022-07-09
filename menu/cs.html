@@ -9,8 +9,8 @@ comments: false
 {% assign b_categories = "algorighms, computer architecture, database, design patterns, languages, network, os, problem solving" | split: ", "  %}
 
 
-<div class="blog-contents">
-  <h1>Contents</h1>
+<div class="blog-categories">
+  <h1>Categories</h1>
   <hr size=5px color="black">
   {%- for category in b_categories -%} 
     {%- if site.categories[category].size > 0 -%}
