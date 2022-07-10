@@ -324,11 +324,20 @@
   }
 
   ul {
-    list-style-type: none;
+    // list-style-type: none;
     margin-bottom: 0.1rem;
     padding-left: 0rem;
     li {
-      padding-left: .5rem;
+      padding-left: 0rem;
+    }
+    li::before {
+      // content: "\FE63";
+      display: inline-block;
+      top: -1px;
+      width: 1.2em;
+      position: relative;
+      margin-left: -2em;
+      font-weight: 700;
     }
   }
 
