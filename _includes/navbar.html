@@ -15,7 +15,7 @@
         </svg>
       </span>
     </label>
-    <a id="mode">
+    <!-- <a id="mode">
       <svg
         class="mode-sunny"
         xmlns="http://www.w3.org/2000/svg"
@@ -158,33 +158,16 @@
           style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
         />
       </svg>
-    </a>
+    </a> -->
+
     <div class="trigger">
       <div class="trigger-container">
-        {%- assign url = page.url -%}
-        {%- assign menus = site.data.menus -%}
-        {%- if menus %}
-          {%- for menu in menus -%} 
-            {%- if url == menu.url -%}
-              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
-            {%- else -%} 
-              {%- if menu.external -%}
-                <a
-                  class="menu-link"
-                  href="{{ menu.url }}"
-                  target="_blank"
-                  rel="noopener"
-                  >{{ menu.title }}</a
-                >
-              {%- else -%}
-                <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
-              {%- endif -%} 
-            {%- endif -%} 
-          {%- endfor -%}
-        {%- else -%}
-          <a class="menu-link {% if url == '/' %}active{% endif %}" href="/">home</a>
-          <a class="menu-link {% if url == '/about/' %}active{% endif %}" href="/about">about</a>
-        {%- endif -%}
+        <a class="menu-link{% if page.title == 'Home' %} active{% endif %}" href="/">Home</a>
+        <a class="menu-link" href="/cs">CS</a>
+        <a class="menu-link" href="/ml-dl">ML / DL</a>
+        <a class="menu-link" href="/dev">Dev</a>
+        <a class="menu-link" href="/note">Note</a>
+        <a class="menu-link" href="/about">About</a>
       </div>
     </div>
   </nav>
