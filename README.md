@@ -1,7 +1,5 @@
-## 
 
-git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
-
+> _git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)_
 ---
 
 ### Main Features
@@ -11,8 +9,16 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 1. comments by utteranc.es
 1. light/dark mode
 
+---
 
 ### Todo List
+
+- [ ] tag별 배경 색 지정
+- [ ] 포스트 커버 이미지 추가
+- [ ] search 동작하도록
+- [ ] portfolio 페이지 추가
+- [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
+
 - [x] /category/title
 - [x] _base.scss - mark 생상 추가 
 - [x] 블로그 이름 navbar 추가(중앙)
@@ -39,8 +45,3 @@ git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)
 - [x] git 포스트 추가하기
 - [x] favicon 변경
 
-- [ ] tag별 배경 색 지정
-- [ ] 포스트 커버 이미지 추가
-- [ ] search 동작하도록
-- [ ] portfolio 페이지 추가
-- [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
