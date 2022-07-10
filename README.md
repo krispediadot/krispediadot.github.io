@@ -2,6 +2,10 @@
 > _git pages based on [klisé theme](https://github.com/piharpi/jekyll-klise)_
 ---
 
+![](./blog.png)
+
+---
+
 ### Main Features
 1. menu left side bar
 1. 2-level categorization
