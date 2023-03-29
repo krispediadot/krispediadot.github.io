@@ -5,7 +5,7 @@ date: 2023-03-28 13:00:00 +09:00
 modified: 
 category: errors
 tags: [github]
-image: "/assets/img/jekyll_logo.png"
+image: "/assets/img/github.png"
 cover: "../puzzle.jpg"
 ---
 
