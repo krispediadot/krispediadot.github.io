@@ -5,7 +5,7 @@ date: 2023-04-12 17:00:00 +09:00
 modified: 
 category: cpp
 tags: [install]
-image: "/assets/img/cpp_logo.png"
+image: "/assets/img/cpp_logo.jpeg"
 cover: ""
 ---
 
