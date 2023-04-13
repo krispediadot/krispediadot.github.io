@@ -17,17 +17,17 @@ g++/ gcc가 설치되지 않았다면  공식홈페이지에 들어가서 MinGW-
 다운받은 폴더의 압축을 아래 경로에 풀어준다.<br>
 사용하는 시스템에 따라 다른 경로를 지정해야할 수 있다.<br>
 
->C:\Program Files\mingw64
+_C:\Program Files\mingw64_
 
 ### 2. 환경변수 설정
 
->설정 > 시스템 > 정보 > 고급시스템설정 > 환경변수
+_설정 > 시스템 > 정보 > 고급시스템설정 > 환경변수_
 
 환경변수 설정은 사용자 환경변수 vs 시스템 환경변수 두가지 종류가 있는데<br>
 
 사용자 환경변수에 설정해두었다. 
 
->사용자명 환경변수 > Path 편집 > 새로 만들기
+_사용자명 환경변수 > Path 편집 > 새로 만들기_
 
 위 버튼을 클릭하고 방금 설치한 mingw64 폴더 아래 g++.exe/ gcc.exe가 있는 위치를 걸어준다.<br>
 
@@ -148,4 +148,4 @@ VSCode를 통해 C++ 파일을 실행하기 위에 Object 파일을 만들고 �
 
 조금 더 편하게 cpp 파일을 실행하기 위해 VSCode 환경설정에서 단축키를 지정하면 된다.<br>
 
-> File > Preferences > Keyboard Shorcuts
+_File > Preferences > Keyboard Shorcuts_
