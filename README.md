@@ -22,6 +22,15 @@
 - [ ] search 동작하도록
 - [ ] portfolio 페이지 추가
 - [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
+- [ ] 로고 디자인 변경
+- [ ] 왼쪽 사이드바 Home/ Posts/ Reviews/ About 으로 분류
+- [ ] 왼쪽 사이드바 트리형으로 변경
+- [ ] 메인 visual content 추가
+- [ ] 메인 recent post 하단 50%로 변경
+- [ ] 카테고리 목록 대분류만 나오도록
+- [ ] 각 카테고리 목록 타이틀 디자인 변경
+- [ ] 각 카테고리 목록 tags 추가
+- [ ] 포스트 내용 타이틀 이미지 텍스트 옆으로 변경
 
 - [x] /category/title
 - [x] _base.scss - mark 생상 추가 
