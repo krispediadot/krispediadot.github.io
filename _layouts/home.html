@@ -3,12 +3,10 @@ layout: default
 home: true
 ---
 
-
-<!-- <h1>Welcom.</h1>
-<img src = "../assets/img/intro.gif" />  -->
+<img src = "../assets/img/intro.gif" />
 
 <h2 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h2>
-{%- for post in site.posts limit: 13 -%}
+{%- for post in site.posts limit: 5 -%}
 <article class="post-item">
   <img
     class="post-item-image"
