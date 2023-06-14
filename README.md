@@ -26,8 +26,8 @@
 - [ ] 로고 디자인 변경
 - [x] 왼쪽 사이드바 Home/ Posts/ Reviews/ About 으로 분류
 - [ ] 왼쪽 사이드바 트리형으로 변경
-- [ ] 메인 visual content 추가
-- [ ] 메인 recent post 하단 50%로 변경
+- [x] 메인 visual content 추가
+- [x] 메인 recent post 하단 50%로 변경
 - [ ] 카테고리 목록 대분류만 나오도록
 - [ ] 각 카테고리 목록 타이틀 디자인 변경
 - [ ] 각 카테고리 목록 tags 추가
