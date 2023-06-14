@@ -38,8 +38,7 @@ layout: compress
     <main class="page-content" aria-label="Content">
       <article itemscope itemtype="https://schema.org/BlogPosting">
         <header class="header">
-          <img class="image" src={{page.image}} />
-          <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
+          <h1 class="header-title" itemprop="headline"><img class="image" src={{page.image}} />{{ page.title | escape }}</h1>
 
           <!-- tags -->
           {% if page.tags and page.tags != empty %}
