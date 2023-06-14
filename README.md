@@ -22,8 +22,9 @@
 - [ ] search 동작하도록
 - [ ] portfolio 페이지 추가
 - [ ] /about/ timeline 왼쪽 컨텐츠 날짜 순서 조정
+
 - [ ] 로고 디자인 변경
-- [ ] 왼쪽 사이드바 Home/ Posts/ Reviews/ About 으로 분류
+- [x] 왼쪽 사이드바 Home/ Posts/ Reviews/ About 으로 분류
 - [ ] 왼쪽 사이드바 트리형으로 변경
 - [ ] 메인 visual content 추가
 - [ ] 메인 recent post 하단 50%로 변경
