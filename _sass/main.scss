@@ -40,7 +40,7 @@ $narrow-size: 800px;
 
 // Padding unit
 $spacing-full: 30px;
-$spacing-half: $spacing-full / 2;
+$spacing-half: calc($spacing-full / 2);
 
 // State of devices
 $on-mobile: 1050px;
