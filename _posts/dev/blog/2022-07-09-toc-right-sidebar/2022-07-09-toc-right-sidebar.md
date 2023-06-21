@@ -3,7 +3,7 @@ layout: post
 title: Jekyll | toc(table of contents) 추가
 date: 2022-07-09 20:00:00 +09:00
 modified: 
-category: blog
+category: [posts, tools]
 tags: [jekyll]
 image: "/assets/img/jekyll_logo.png"
 cover: "../puzzle.jpg"
