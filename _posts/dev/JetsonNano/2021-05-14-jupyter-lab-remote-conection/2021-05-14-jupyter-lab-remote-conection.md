@@ -3,7 +3,7 @@ layout: post
 title: Jetson Nano | jupyter lab 원격 접속 설정
 date: 2021-05-14 16:00:00 +09:00
 modified: 
-category: jetson nano
+category: [posts, tools]
 tags: [jupyter]
 image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
