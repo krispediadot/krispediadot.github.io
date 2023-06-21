@@ -3,7 +3,7 @@ layout: post
 title: Python | Offline 환경에서 라이브러리 설치하기
 date: 2023-03-09 19:00:00 +09:00
 modified: 
-category: python
+category: [posts, tools]
 tags: [install]
 image: "/assets/img/python_logo.png"
 cover: ""
