@@ -3,7 +3,7 @@ layout: post
 title: Django | template 에서 나눗셈
 date: 2021-04-17 14:00:00 +09:00
 modified: 
-category: python
+category: [posts, tools]
 tags: [django]
 image: "/assets/img/python_logo.png"
 cover: ""
