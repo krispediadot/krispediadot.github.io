@@ -3,7 +3,7 @@ layout: post
 title: Jetson Nano | jupyter virtualenv 커널 추가
 date: 2020-11-07 11:00:00 +09:00
 modified: 
-category: jetson nano
+category: [posts, tools]
 tags: [ubuntu18.04, virtualenv, jupyter]
 image: "/assets/img/nvidia_logo.jpg"
 cover: "../puzzle.jpg"
