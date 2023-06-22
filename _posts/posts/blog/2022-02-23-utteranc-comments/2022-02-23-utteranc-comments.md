@@ -3,7 +3,7 @@ layout: post
 title: Jekyll | utterances comments 연결하기
 date: 2022-02-23 16:00:00 +09:00
 modified: 
-category: blog
+category: [posts, tools]
 tags: [jekyll]
 image: "/assets/img/jekyll_logo.png"
 cover: "../puzzle.jpg"

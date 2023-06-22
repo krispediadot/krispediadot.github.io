@@ -3,7 +3,7 @@ layout: post
 title: git commit+
 date: 2019-06-02 00:00:05 +09:00
 modified: 
-category: git
+category: [posts, tools]
 tags: [git]
 image: "/assets/img/git_icon.png"
 cover: 

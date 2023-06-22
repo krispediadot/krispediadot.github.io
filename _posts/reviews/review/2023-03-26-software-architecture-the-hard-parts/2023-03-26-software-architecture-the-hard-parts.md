@@ -4,8 +4,8 @@ layout: post
 title: 소프트웨어 아키텍처 The Hard Parts
 date: 2023-03-26 18:00:00 +09:00
 modified: 
-category: review
-tags: [bookreview]
+category: [reviews, books]
+tags: 
 image: "/assets/img/review_logo.png"
 cover: "../puzzle.jpg"
 ---

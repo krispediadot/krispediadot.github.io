@@ -3,7 +3,7 @@ layout: post
 title: C++ | Windows Offline 환경에서 사용하기
 date: 2023-04-12 17:00:00 +09:00
 modified: 
-category: cpp
+category: [posts, tools]
 tags: [install]
 image: "/assets/img/cpp_logo.jpeg"
 cover: ""

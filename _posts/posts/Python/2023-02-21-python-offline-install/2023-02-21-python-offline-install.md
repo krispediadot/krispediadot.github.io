@@ -3,7 +3,7 @@ layout: post
 title: Python | Offline 환경에서 설치하기
 date: 2023-02-21 22:00:00 +09:00
 modified: 
-category: python
+category: [posts, tools]
 tags: [install]
 image: "/assets/img/python_logo.png"
 cover: ""

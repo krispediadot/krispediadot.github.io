@@ -3,7 +3,7 @@ layout: post
 title: Jekyll | google analytics 추가하기
 date: 2021-03-24 11:00:00 +09:00
 modified: 
-category: blog
+category: [posts, tools]
 tags: [jekyll]
 image: "/assets/img/jekyll_logo.png"
 cover: "../puzzle.jpg"

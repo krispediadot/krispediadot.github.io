@@ -3,7 +3,7 @@ layout: post
 title: Python | Oracle 데이터베이스 연결
 date: 2023-03-27 19:00:00 +09:00
 modified: 
-category: python
+category: [posts, tools]
 tags: [database]
 image: "/assets/img/python_logo.png"
 cover: ""

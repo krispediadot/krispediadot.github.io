@@ -3,7 +3,7 @@ layout: post
 title: Python | Crawling proxy 설정이 필요한 경우
 date: 2020-06-04 11:58:47 +09:00
 modified: 
-category: python
+category: [posts, tools]
 tags: [crawling]
 image: "/assets/img/python_logo.png"
 cover: ""

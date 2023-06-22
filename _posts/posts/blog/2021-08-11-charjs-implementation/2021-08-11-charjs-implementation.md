@@ -3,7 +3,7 @@ layout: post
 title: Jekyll | 누적 막대그래프 추가
 date: 2021-08-11 23:00:00 +09:00
 modified: 
-category: blog
+category: [posts, tools]
 tags: [jekyll]
 image: "/assets/img/jekyll_logo.png"
 cover: "../puzzle.jpg"

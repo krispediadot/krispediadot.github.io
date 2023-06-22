@@ -3,7 +3,7 @@ layout: post
 title: Shell Script | Python 리턴 값을 쉘 스크립트로 전달하기
 date: 2020-06-17 11:58:47 +09:00
 modified: 
-category: python
+category: [posts, tools]
 tags: [shell]
 image: "/assets/img/python_logo.png"
 cover: ""
