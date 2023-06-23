@@ -10,13 +10,10 @@ comments: false
 {% assign b_categories = "algorithms, database, design pattern, machine learning, tools, errors" | split: ", "  %}
 
 <div class="blog-categories">
-  <h1>Categories</h1>
-  <hr size=5px color="black">
   {%- for category in b_categories -%} 
     {%- if site.categories[category].size > 0 -%}
       {% capture name %}{{ category }}{% endcapture %}
-      . <a class="item" href="/posts/{{ name | replace: " ", "_" }}">{{ name | upcase }}</a><br>
+      <h3>. <a class="item" href="/posts/{{ name | replace: " ", "_" }}">{{ name | upcase }}</a></h3>
     {%- endif -%}
   {%- endfor -%}
-  <hr size=5px color="black">
 </div>
