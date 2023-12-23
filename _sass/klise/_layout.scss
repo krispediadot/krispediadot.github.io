@@ -21,7 +21,7 @@
   right: 0;
   z-index: 2;
   text-align: left;
-  height: 70px;
+  height: 50px;
   background-color: $white;
   border-bottom: 1px solid $light;
   user-select: none;
@@ -30,7 +30,7 @@
 
   a#mode {
     float: right;
-    padding-top: 10px;
+    padding-top: 0px;
     right: 30px;
     top: 13px;
     position: relative;
@@ -74,8 +74,8 @@
 
   .title {
     padding-left: 0px; 
-    padding-top: 10px;
-    font-size: 25px;
+    padding-top: 0px;
+    font-size: 20px;
     font-weight: 700;
     line-height: $base-line-height + 1;
   }
@@ -83,7 +83,7 @@
   .trigger {
     float: left;
     padding-left: 30px;
-    padding-top: 120px;
+    padding-top: 150px;
   }
 
   .menu-trigger {
@@ -140,7 +140,6 @@
     right: 0;
     z-index: 2;
     text-align: center;
-    height: 70px;
     background-color: $white;
     border-bottom: 1px solid $light;
 
@@ -161,7 +160,7 @@
       width: 50px;
       height: 23px;
       line-height: 0;
-      padding-top: 23px;
+      padding-top: 13px;
       padding-bottom: 15px;
       cursor: pointer;
       text-align: center;
