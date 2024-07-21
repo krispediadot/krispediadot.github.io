@@ -1,10 +1,5 @@
-<!-- unnecessary file, however you can still use for comment section, e.g disqus -->
-<script
-  src="https://utteranc.es/client.js"
-  repo="krispediadot/krispediadot.github.io"
-  issue-term="title"
-  label="💬 comments"
-  theme="github-dark"
-  crossorigin="anonymous"
-  async
-></script>
+<!-- The comments switcher -->
+{% if page.comments and site.comments.provider %}
+  {% capture path %}comments/{{ site.comments.provider }}.html{% endcapture %}
+  {% include {{ path }} %}
+{% endif %}
