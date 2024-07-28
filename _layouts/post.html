@@ -1,122 +1,152 @@
 ---
-layout: compress
+layout: default
+refactor: true
+panel_includes:
+  - toc
+tail_includes:
+  - related-posts
+  - post-nav
+  - comments
 ---
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include lang.html %}
 
-{% include header.html %}
+<article class="px-1">
+  <header>
+    <h1 data-toc-skip>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+    {% endif %}
 
-<body data-theme="{{ site.mode }}" class="notransition">
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        {{ site.data.locales[lang].post.posted }}
+        {% include datetime.html date=page.date tooltip=true lang=lang %}
+      </span>
 
-  <script>
-    const body = document.body;
-    const data = body.getAttribute("data-theme");
+      <!-- lastmod date -->
+      {% if page.last_modified_at and page.last_modified_at != page.date %}
+        <span>
+          {{ site.data.locales[lang].post.updated }}
+          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
+        </span>
+      {% endif %}
 
-    const initTheme = (state) => {
-      if (state === "dark") {
-        body.setAttribute("data-theme", "dark");
-      } else if (state === "light") {
-        body.removeAttribute("data-theme");
-      } else {
-        localStorage.setItem("theme", data);
-      }
-    };
- 
-    initTheme(localStorage.getItem("theme"));
-    
-    setTimeout(() => body.classList.remove("notransition"), 75);
-  </script>
+      {% if page.image %}
+        {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
 
-  {% include titlebar.html %}
-  
-  <div class="toc" id="toc">
-    {% include toc.html html=content %}
-  </div>
+        {% if page.image.lqip %}
+          {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+        {% endif %}
 
-  <div class="wrapper post">
-    <main class="page-content" aria-label="Content">
-      <article itemscope itemtype="https://schema.org/BlogPosting">
-        <header class="header">
-          <h1 class="header-title" itemprop="headline"><img class="image" src={{page.image}} />{{ page.title | escape }}</h1>
-
-          <!-- tags -->
-          {% if page.tags and page.tags != empty %}
-          <div class="tags">
-            {% assign tags = page.tags %}
-            <span itemprop="keywords">
-              {% for tag in tags %}
-              <a class="tag"
-                href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            </span>
-          </div>
-          {% endif %}
-
-          <!-- date -->
-          {% if page.date %}
-          <div class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-              {{ page.date | date: "%Y/%m/%d" }}
-            </time>
-
-            <!-- author -->
-            <img class="author-img" src="{{ site.author.avatar }}" />
-            <a itemprop="author-name" href="/about">{{ site.author.name }}</span>
-          </div>
-          {% endif %}
-        </header>
-
-        <div class="page-content" itemprop="articleBody">
-          {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
+        <div class="mt-3 mb-3">
+          <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+          {%- if page.image.alt -%}
+            <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+          {%- endif -%}
         </div>
-      </article>
-    
-      {% include comments.html %}
+      {% endif %}
 
-    </main>
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
+          {% if page.author %}
+            {% assign authors = page.author %}
+          {% elsif page.authors %}
+            {% assign authors = page.authors %}
+          {% endif %}
 
-    <!-- {% if page.modified %}
-      <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
-    {% endif %} -->
-    <!-- {% if page.next or page.previous %}
-      {% include navigation.html %}
-    {% endif %} -->
+          {{ site.data.locales[lang].post.written_by }}
 
-    {% include footer.html %}
+          <em>
+            {% if authors %}
+              {% for author in authors %}
+                {% if site.data.authors[author].url -%}
+                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+                {%- else -%}
+                  {{ site.data.authors[author].name }}
+                {%- endif %}
+                {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
+              {% endfor %}
+            {% else %}
+              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+            {% endif %}
+          </em>
+        </span>
+
+        <div>
+          <!-- pageviews -->
+          {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
+            <span>
+              <em id="pageviews">
+                <i class="fas fa-spinner fa-spin small"></i>
+              </em>
+              {{ site.data.locales[lang].post.pageview_measure }}
+            </span>
+          {% endif %}
+
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true lang=lang %}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    {{ content }}
   </div>
-</body>
-</html>
 
-<!-- toc contents generator -->
-<script>
-  function getTOCNodes(master) {
-    var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
-    var tocNodes = nodes.filter(function(elem) {
-        return elem.tagName == "A";
-    });
-    return tocNodes;
-  }
-  function getHeaderNodes(master) {
-    var nodes = Array.prototype.slice.call(master.getElementsByTagName("*"), 0);
-    var headerNodes = nodes.filter(function(elem) {
-        return elem.tagName == "H1" || elem.tagName == "H2" || elem.tagName == "H3" || elem.tagName == "H4" || elem.tagName == "H5" || elem.tagName == "H6";
-    });
-    return headerNodes;
-  }
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    {% if page.categories.size > 0 %}
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
+        {% for category in page.categories %}
+          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+          {%- unless forloop.last -%},{%- endunless -%}
+        {% endfor %}
+      </div>
+    {% endif %}
 
-  var title = document.getElementsByClassName("post-title")[0];
-  var titleY = window.pageYOffset + title.getBoundingClientRect().top;
-  
-  var article = document.getElementsByClassName("post-article")[0];
-  var articleY = window.pageYOffset + article.getBoundingClientRect().top;
+    <!-- tags -->
+    {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        {% for tag in page.tags %}
+          <a
+            href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+            class="post-tag no-text-decoration"
+          >
+            {{- tag -}}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
 
-  var toc = document.getElementsByClassName("toc")[0];
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        {% if site.data.locales[lang].copyright.license.template %}
+          {% capture _replacement %}
+        <a href="{{ site.data.locales[lang].copyright.license.link }}">
+          {{ site.data.locales[lang].copyright.license.name }}
+        </a>
+        {% endcapture %}
 
-  var headerNodes = getHeaderNodes(article);
-  var tocNodes = getTOCNodes(toc);
+          {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
+        {% endif %}
+      </div>
 
-  var before = undefined;
-
-  
-</script>
+      {% include post-sharing.html lang=lang %}
+    </div>
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
+</article>
