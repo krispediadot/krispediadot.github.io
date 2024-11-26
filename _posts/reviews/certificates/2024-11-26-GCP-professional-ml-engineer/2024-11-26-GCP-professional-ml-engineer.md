@@ -35,7 +35,7 @@ cover:
 
 PMLE 시험은 Google Cloud 환경에서 ML engineer로서 시험 주요 내용 6가지 영역의 업무를 수행할 수 있는 지식이 있는지를 확인하는 시험이다. 상황을 주고 요구사항에 알맞은 선택지를 고르는 문제가 주로 나온다. 
 
-**알아두어야 할 사항은 2024.10.01. 기준으로 시험이 업데이트되었다는 점이다.** 
+<mark>알아두어야 할 사항은 2024.10.01. 기준으로 시험이 업데이트되었다는 점이다.</mark>
 
 [공식 사이트](https://cloud.google.com/learn/certification/guides/machine-learning-engineer)에 따르면 generative AI 관련 내용이 포함되었다고 한다. 
 >What's new:\
@@ -109,6 +109,8 @@ Remote로 시험을 선택하고 Buy Now를 클릭하면 시간을 선택하는 
 전체 50문제 중 Dump와 동일하게 나온 문제는 10개 미만이었다. 개인적으로는 Dump 문제를 살펴볼 때 Discussion을 읽으며 정리해 뒀던 지식이 많은 도움이 되었다.
 
 ### 5. 시험 결과
+
+PASS 🎉
 
 최종 제출을 하고 나면 화면에서 바로 PASS 인지 결과를 확인할 수 있었고 하루 뒤 credly에 자격증이 발급되었다는 메일을 받았다. credly에서 `Download Certificate` 누르면 PDF 자격증을 받을 수 있다. 
 
