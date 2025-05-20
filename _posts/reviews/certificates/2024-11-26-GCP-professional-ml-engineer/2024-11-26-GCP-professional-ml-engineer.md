@@ -4,7 +4,7 @@ layout: post
 title: GCP Professional Machine Leaning Engineer Certificate
 date: 2024-11-26 18:00:00 +09:00
 modified: 
-category: [reviews, certificates]
+category: [Reviews, Certificates]
 tags: 
 image: 
 cover: 

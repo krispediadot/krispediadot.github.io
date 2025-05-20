@@ -3,7 +3,7 @@ layout: post
 title: git rebase
 date: 2019-06-02 00:00:15 +09:00
 modified: 
-category: [tools, git]
+category: [Tools, Git]
 tags: [git]
 image: 
 cover: 
