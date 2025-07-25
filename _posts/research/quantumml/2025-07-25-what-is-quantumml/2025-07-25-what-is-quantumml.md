@@ -4,7 +4,7 @@ layout: post
 title: What is Quantum Machine Learning?
 date: 2025-07-25 09:00:00 +09:00
 modified: 
-category: [Research, Quantum ML]
+category: [Research, Quantum Machine Learning]
 tags: 
 image: 
 cover: 
